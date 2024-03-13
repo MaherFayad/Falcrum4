@@ -1,0 +1,70 @@
+.container .slice {
+    transition-duration: 0.3s;
+    transition-property: filter, opacity;
+    filter: saturate(100%);
+    opacity: 1;
+    cursor: pointer;
+    overflow: visible;
+}
+
+.container.hasHighlight .slice {
+    filter: saturate(50%);
+    opacity: 0.2;
+    overflow: visible;
+}
+
+.container.hasHighlight .slice:hover {
+    filter: saturate(100%);
+    opacity: 1;
+    overflow: visible;
+}
+
+/* style.css */
+.segment {
+    transition: opacity 0.3s ease;
+  }
+  
+  .segment.active {
+    opacity: 1;
+  }
+  
+  .segment.inactive {
+    opacity: 0.25;
+  }
+  
+  .segment:hover {
+    opacity: 0.5 !important; /* Increase specificity to ensure hover effect */
+  }
+
+  /* style.css */
+.scale-container {
+    height: 60vh;
+    width: 80vw;
+  }
+
+  .containerlarge {
+  }
+  
+  /* Tablet (devices with width greater than or equal to 768px and less than 1024px) */
+  @media (min-width: 768px) and (max-width: 1360px) {
+    .scale-container {
+      transform: scale(1); /* Scale to 75% */
+    }
+  }
+    
+  .h-2xl {
+    height: 32rem;
+  }
+
+  .w-2xl {
+    width: 24rem;
+  }
+
+  @media (max-width: 767px) {
+    .scale-container {
+        transform: scale(0.75); /* Scale to 50% */
+      }
+  }
+  
+  
+
