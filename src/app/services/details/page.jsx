@@ -1,9 +1,9 @@
 "use client";
 import { ButtonSpot } from "@/common/component/element/ButtonSpot";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
+import Rails from "@/common/component/element/Rails";
 import SectionHeading from "@/common/component/element/SectionHeading";
 import { servicesData } from "@/common/constant/ServicesData";
-import Rails from "@/common/svg/Rails";
 import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
@@ -20,11 +20,11 @@ const DetailsPage = () => {
 
             {/* main heading */}
             <div className="flex justify-center py-3 ">
-                <div className="flex justify-center lg:mt-20 mt-10 relative ">
+                <div className="flex justify-center lg:mt-20 mt-10 relative">
                     <h1 className="text-3xl  md:text-6xl lg:text-7xl lg:py-5 md:py-3 px-10 text-center dark:bg-gradient-to-r from-white from-50% to-[#979797] bg-text bg-clip-text text-transparent font-bold">
                         {itemData?.title}
                     </h1>
-                    <div className="absolute w-[90%] top-[20%] h-[300px] z-[-99]">
+                    <div className="absolute w-[90%] top-1/2 -translate-y-1/2 h-[300px] z-[-99]">
                         <Rails />
                         <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
                         <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>

@@ -1,18 +1,14 @@
-import { ButtonSpot } from "@/common/component/element/ButtonSpot";
 import CardOffer from "@/common/component/element/CardOffer";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import Image from "@/common/component/element/Image";
 import Rails from "@/common/component/element/Rails";
-import SectionHeading from "@/common/component/element/SectionHeading";
 import { servicesData } from "@/common/constant/ServicesData";
-import { FaChalkboardTeacher } from "react-icons/fa";
-import { FaShieldHeart } from "react-icons/fa6";
-import { GrAnalytics, GrCertificate, GrResources, GrPlan } from "react-icons/gr";
-import { MdModelTraining, MdOutlineFeedback } from "react-icons/md";
-import { BsWebcam } from "react-icons/bs";
-import { AiOutlineAudit, AiOutlineTeam } from "react-icons/ai";
-import { IoIosPricetags } from "react-icons/io";
 import Link from "next/link";
+import { AiOutlineAudit, AiOutlineTeam } from "react-icons/ai";
+import { BsWebcam } from "react-icons/bs";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { GrPlan } from "react-icons/gr";
+import { IoIosPricetags } from "react-icons/io";
 
 export default function ServicePage() {
 
@@ -33,12 +29,12 @@ export default function ServicePage() {
           <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl lg:py-5 md:py-3 px-10 text-center dark:bg-gradient-to-r from-white from-50% to-[#979797] bg-text bg-clip-text  text-transparent font-bold">
             Service & Expertise
           </h1>
-          <div className=" absolute w-[80%] h-[250px] z-[-99] top-[-70px]">
+          <div className="absolute w-[90%] top-1/2 -translate-y-1/2 h-[300px] z-[-99]">
             <Rails />
-            <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-            <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
           </div>
         </div>
       </div>
