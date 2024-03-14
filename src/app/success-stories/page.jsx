@@ -1,4 +1,9 @@
+import ComponentTransition from '@/common/component/element/ComponentTransition'
+import SectionHeading from '@/common/component/element/SectionHeading'
+import { BlogContent } from '@/common/constant/BlogContent'
 import Blog from '@/common/module/Blog'
+import FeedbackCard from '@/common/module/Feedback/component/FeedbackCard'
+import { MdOutlineFeedback } from 'react-icons/md'
 
 export const metadata = {
   title: 'Blog - Teaser',
@@ -8,12 +13,12 @@ export const metadata = {
 
 const Blogpost = () => {
   return (
-    <div className='mt-20 flex justify-center'>
-      <Blog />
+    <div className='my-20 sm:mt-32 mt-28 max-w-[1500px] mx-auto'>
+      <Blog BlogContent={BlogContent} className='lg:pb-20 pb-14' />
 
       {/* feedback */}
-      <div className="mt-20">
-        <ComponentTransition className="flex justify-center lg:py-5">
+      <div className="lg:mt-20 mt-10 px-5 lg:px-10">
+        <ComponentTransition delay={0.1} className="flex justify-center lg:py-5">
           <SectionHeading
             title="Testimonials"
             icon={<MdOutlineFeedback size={0} />}

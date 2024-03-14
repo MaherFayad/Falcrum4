@@ -1,22 +1,19 @@
-import React from "react";
-import { FooterItem } from "@/common/constant/FooterItem";
-import { FaMedium } from "react-icons/fa6";
-import { FaTwitter, FaLinkedin, FaDiscord } from "react-icons/fa";
-import Link from "next/link";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
+import { FooterItem } from "@/common/constant/FooterItem";
+import Link from "next/link";
 import TextAnimated from "../Faq/component/TextAnimated";
 
 const Footer = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center">
-      <div className="grid grid-cols-1 md:grid-cols-4 py-10 px-8 h-auto w-full max-w-[1500px] place-content-center md:px-5 place-items-start md:place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 py-10  h-auto w-full max-w-[1500px] place-content-center  px-5 place-items-start md:place-items-center">
         {FooterItem?.map((item, index) => (
           <ComponentTransition
             delay={index * 0.1}
             className="flex flex-col"
             key={index}
           >
-            <h1 className="text-2xl font-bold py-3 px-2 md:px-2">
+            <h1 className="md:text-2xl text-xl max-md:pb-1 font-bold py-3 px-2 md:px-2">
               {item.title}
             </h1>
             <div className="md:px-2 md:py-2 px-2 sm:py-[4px] flex">
@@ -52,7 +49,7 @@ const Footer = () => {
           </ComponentTransition>
         ))}
       </div>
-      <div className="flex justify-center lg:py-20 max-md:pt-10 max-sm:pt-2 max-md:pb-6 max-sm:pb-5 items-center flex-col ">
+      <div className="flex justify-center lg:pt-20 max-md:pt-10 max-sm:pt-2 md:pb-6 max-md:pb-4 max-sm:pb-3 items-center flex-col ">
         {/* <div className="gap-5 flex py-5 justify-center items-center w-full">
           <FaMedium size={30} />
           <FaTwitter size={30} />

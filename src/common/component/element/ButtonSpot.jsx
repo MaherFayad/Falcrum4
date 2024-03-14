@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import clsx from "clsx";
 
 
-export const ButtonSpot = ({title, className}) => {
+export const ButtonSpot = ({ title, className }) => {
   const btnRef = useRef(null);
   const spanRef = useRef(null);
 
@@ -13,44 +13,44 @@ export const ButtonSpot = ({title, className}) => {
       const { width } = e.target.getBoundingClientRect();
       const offset = e.offsetX;
       const left = `${(offset / width) * 100}%`;
-  
+
       spanRef.current.animate({ left }, { duration: 250, fill: "forwards" });
     };
-  
+
     const handleMouseLeave = () => {
       spanRef.current.animate(
         { left: "50%" },
         { duration: 100, fill: "forwards" }
       );
     };
-  
+
     const btn = btnRef.current;
-  
+
     if (btn) {
       btn.addEventListener("mousemove", handleMouseMove);
       btn.addEventListener("mouseleave", handleMouseLeave);
     }
-  
+
     return () => {
       const btn = btnRef.current;
-  
+
       if (btn) {
         btn.removeEventListener("mousemove", handleMouseMove);
         btn.removeEventListener("mouseleave", handleMouseLeave);
       }
     };
   }, []);
-  
+
 
   return (
-<motion.button
-  whileTap={{ scale: 0.985 }}
-  ref={btnRef}
-  className={clsx(
-    className,
-    "relative w-full md:w-full group overflow-hidden rounded-full px-4 py-2 text-base font-medium bgslate text-white"
-  )}
->
+    <motion.button
+      whileTap={{ scale: 0.985 }}
+      ref={btnRef}
+      className={clsx(
+        className,
+        "relative w-full md:w-full group overflow-hidden rounded-full px-4 py-2 md:text-base text-[14px] font-medium bgslate text-white"
+      )}
+    >
 
       <span className="pointer-events-none w-full md:w-full relative z-10 mix-blend-difference">
         {title}

@@ -8,8 +8,11 @@ import Feedback from '../Feedback'
 import Feature from '../Feature/Feature'
 import Pricing from '../Pricing/Pricing'
 import Interest from '../EndSection/Interest'
+import { BlogContent } from '@/common/constant/BlogContent'
+
 
 const Homepage = () => {
+  const firstTwoObjects = BlogContent.slice(0, 2);
   return (
     <div>
       <Hero />
@@ -21,7 +24,7 @@ const Homepage = () => {
       <Pricing/>
     <Faq /> */}
       <div className='lg:my-48 md:my-28 sm:my-18 my-8'><p> </p></div>
-      <Blog className='!pb-0' />
+      <Blog className='!pb-0' BlogContent={firstTwoObjects} />
       <div className='lg:my-48 md:my-28 sm:my-18 my-8'><p> </p></div>
       <Solution />
       <div className='lg:my-48 md:my-30 sm:my-20 my-10'><p> </p></div>

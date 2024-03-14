@@ -86,7 +86,9 @@ const Navbar = () => {
           {/* <div className="px-2">
             <DarkmodeSwitch />
           </div> */}
-          <ButtonSpot title="Contact Us" />
+          <Link href={`/contact`} className="block w-full h-full" >
+            <ButtonSpot title="Contact Us" />
+          </Link>
         </div>
       </div>
     </motion.div>

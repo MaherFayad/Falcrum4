@@ -153,3 +153,31 @@ body {
 .screen-w {
   width: auto;
 }
+.pricing-card:last-child h2 {
+  @apply lg:!text-xl md:!text-lg !text-sm;
+}
+
+.pricing-card:last-child::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 32px;
+  z-index: -1;
+  background: linear-gradient(
+    170deg,
+    rgb(180 9 236 / 20%) 38.95%,
+    rgb(54 9 236 / 20%) 92.27%
+  );
+  /* background: linear-gradient(170deg, rgb(180 9 236 / 20%) 38.95%, rgba(236, 9, 9, 0.20) 92.27%); */
+  /* background: linear-gradient(170deg, rgba(236, 58, 9, 0.20) 38.95%, rgba(236, 9, 9, 0.20) 92.27%); */
+  filter: blur(95px);
+}
+
+.services-card:nth-child(2),
+.services-card:nth-child(5) {
+  @apply lg:!basis-[31%];
+}

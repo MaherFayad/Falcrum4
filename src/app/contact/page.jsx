@@ -1,5 +1,4 @@
 import Contactus from '@/common/module/Contact'
-import React from 'react'
 
 export const metadata = {
   title: 'Contact Us - Teaser',

@@ -43,14 +43,14 @@ const CardAbout = () => {
             </p>
           </div>
           <div className=" overflow-hidden mt-10 bg-neutral-100 dark:bg-neutral-950/50 backdrop-blur-sm border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl">
-            <div className=" rounded-3xl overflow-hidden max-xl:h-[530px]">
+            <div className=" rounded-3xl overflow-hidden max-xl:h-[530px] max-lg:h-auto">
               <Image
                 src="https://images.unsplash.com/photo-1637792566284-67454a001370?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Header Image"
                 width={400}
                 height={200}
                 priority
-                className="w-full h-auto object-cover rounded-3xl object-center"
+                className="w-full h-full object-cover rounded-3xl object-center"
               />
             </div>
           </div>

@@ -1,11 +1,9 @@
-import SectionHeading from "@/common/component/element/SectionHeading";
-import React from "react";
-import { FaUmbrella } from "react-icons/fa";
-import CardSolution from "./component/Card";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Link from "next/link";
-import Buttons from "@/common/component/element/Buttons";
 import Button from "@/common/component/element/Button";
+import ComponentTransition from "@/common/component/element/ComponentTransition";
+import SectionHeading from "@/common/component/element/SectionHeading";
+import { CardItem } from "@/common/constant/CardItem";
+import Link from "next/link";
+import CardSolution from "./component/Card";
 
 const Solution = ({ className = "" }) => {
   return (
@@ -21,7 +19,7 @@ const Solution = ({ className = "" }) => {
           Knowledge is power, especially in the fast-evolving tech landscape. Our insights section is a treasure trove of articles, blog posts, and updates designed to keep you informed and inspired.
         </p>
       </ComponentTransition>
-      <CardSolution />
+      <CardSolution CardItem={CardItem} />
       <ComponentTransition className="w-full md:flex-row flex-col items-center flex justify-center gap-3">
         <Link href='/solution' className="w-full rounded-full">
           <Button

@@ -1,15 +1,13 @@
-import Image from "@/common/component/element/Image";
-import React from "react";
-import { CardItem } from "@/common/constant/CardItem";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
+import Image from "@/common/component/element/Image";
 
-const CardSolution = () => {
+const CardSolution = ({ CardItem, className = "", cardClassName = "" }) => {
   return (
-    <div className="py-10 flex gap-5 lg:gap-10 flex-row justify-center relative flex-wrap">
+    <div className={`py-10 flex gap-5 lg:gap-10 flex-row justify-center relative flex-wrap ${className}`}>
       <div className="absolute  z-[-9]  w-[100%] md:w-[600px] h-[400px] top-[50px]"></div>
       {CardItem?.map((item, index) => (
         <ComponentTransition
-          className="w-full md:h-[350px] max-md:pb-2 group md:basis-[31%] overflow-hidden bg-neutral-50 dark:bg-[#0a0a0a] border-[1px] dark:border-neutral-700 border-neutral-300 rounded-3xl"
+          className={`w-full md:min-h-[350px] max-md:pb-2 group md:basis-[31%] overflow-hidden bg-neutral-50 dark:bg-[#0a0a0a] border-[1px] dark:border-neutral-700 border-neutral-300 rounded-3xl ${cardClassName}`}
           key={index}
           delay={index * 0.1}
         >
