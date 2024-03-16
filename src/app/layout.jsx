@@ -3,6 +3,7 @@ import '../common/style/globals.css';
 import Navbar from 'src/common/component/navbar/Navbar';
 import Footer from 'src/common/module/Footer';
 import { Providers } from 'src/common/component/element/Providers';
+import { Partytown } from '@builder.io/partytown/react';
 /* eslint-disable */
 
 // Initialize Inter font (adjust options as needed)
@@ -16,6 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+      <Partytown debug={true} />
+      </head>
       <body className={`${interFont.className} overflow-x-hidden`}>
         <Providers>
           <div className='flex justify-center items-center'>
