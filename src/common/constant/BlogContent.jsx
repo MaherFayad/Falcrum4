@@ -1,9 +1,9 @@
 export const BlogContent = [
   {
-    id: 1,
-    bigTitle: "Lavr International: Comprehensive Technological Reinvention",
-    slug: 'unveiling-the-art-of-web-design',
-    img: 'https://images.unsplash.com/photo-1601315488950-3b5047998b38?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    id: "1",
+    title1: "Lavr International: Comprehensive Technological Reinvention",
+    slug: 'Lavr-International',
+    img: 'https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Blog%2FLavr-International.webp?alt=media&token=8ff47789-2a28-4f16-b0b7-6ac131d5032a',
     title: "Lavr International: Comprehensive Technological Reinvention",
     desc: "At Lavr International, Fulcrum Services undertook an ambitious project to overhaul its operational and strategic framework. Recognizing the pivotal role of technology in enhancing operational efficiency and strategic decision-making, we deployed an advanced integration of AI, blockchain, and IoT systems across their supply chain and financial operations. A custom-developed Large Language Model (LLM) automated key intelligence and logistical tasks, while our IoT solution provided real-time asset tracking and supply chain visibility, reducing logistical errors by over 45%. Blockchain technology ensured secure, transparent financial transactions, cutting processing times by half and significantly mitigating fraud risks. This holistic technological revamp propelled Lavr International to unprecedented levels of efficiency, security, and operational agility.",
     content: (
@@ -17,13 +17,6 @@ export const BlogContent = [
           Understanding your goals and the needs of your audience will guide
           your design choices and ensure a more focused and impactful outcome.
         </p>
-        <h1 className="text-3xl font-bold py-3">Step 2: Research and Inspiration</h1>
-        <p className="pb-5 leading-relaxed">
-          Explore existing websites, both within and outside your industry, to
-          gather inspiration. Pay attention to design elements, color schemes,
-          and layouts that resonate with you. This research phase will help you
-          develop a vision for your own project.
-        </p>
         <h1 className="text-3xl py-3 font-bold ">Step 2: Research and Inspiration</h1>
         <p className="pb-5 leading-relaxed">
           Explore existing websites, both within and outside your industry, to
@@ -70,10 +63,10 @@ export const BlogContent = [
     ),
   },
   {
-    id: 2,
-    bigTitle: "E Electrical Contracting & Saijun Electric Contracting: Revolutionizing Operations with AI and IoT",
-    slug: 'unveiling-the-art-of-web-design',
-    img: 'https://images.unsplash.com/photo-1601315488950-3b5047998b38?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    id: "2",
+    title1: "E Electrical Contracting & Saijun Electric Contracting: Revolutionizing Operations with AI and IoT",
+    slug: 'E-Electrical-Contracting',
+    img: 'https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Blog%2FE-Electrical-Contracting-_-Saijun-Electric-Contracting.webp?alt=media&token=ace57d1c-e92a-48eb-b8ac-77925fae0bcd',
     title: "E Electrical Contracting & Saijun Electric Contracting: Revolutionizing Operations with AI and IoT",
     desc: "For E Electrical Contracting and Saijun Electric Contracting, Fulcrum Services crafted and implemented a state-of-the-art operational framework centered around AI-driven efficiencies and IoT-powered data collection. Our bespoke Large Language Model (LLM) algorithms streamlined project management, automating scheduling and optimizing resource allocation, which led to a 30% increase in project completion efficiency. The cornerstone of our intervention was the development and deployment of a comprehensive IoT system, capturing real-time data from the field. This system facilitated predictive maintenance, enhanced safety measures, and ensured the seamless execution of projects. The integration of these technologies not only solidified E Electrical and Saijun Electric as industry leaders but also redefined standards for operational excellence in the electrical contracting sector.",
     content: (
@@ -87,13 +80,6 @@ export const BlogContent = [
           Understanding your goals and the needs of your audience will guide
           your design choices and ensure a more focused and impactful outcome.
         </p>
-        <h1 className="text-3xl font-bold py-3">Step 2: Research and Inspiration</h1>
-        <p className="pb-5 leading-relaxed">
-          Explore existing websites, both within and outside your industry, to
-          gather inspiration. Pay attention to design elements, color schemes,
-          and layouts that resonate with you. This research phase will help you
-          develop a vision for your own project.
-        </p>
         <h1 className="text-3xl py-3 font-bold ">Step 2: Research and Inspiration</h1>
         <p className="pb-5 leading-relaxed">
           Explore existing websites, both within and outside your industry, to
@@ -140,10 +126,10 @@ export const BlogContent = [
     ),
   },
   {
-    id: 3,
-    bigTitle: "Delorean Motor Company: Pioneering the Future of Automotive Ownership",
-    slug: 'unveiling-the-art-of-web-design',
-    img: 'https://images.unsplash.com/photo-1601315488950-3b5047998b38?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    id: "3",
+    title1: "Delorean Motor Company: Pioneering the Future of Automotive Ownership",
+    slug: 'Delorean-Motor-Company',
+    img: 'https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Blog%2FDelorean-Motor-Company.webp?alt=media&token=43db78b1-8320-46ff-91f8-75b829524ba8',
     title: "Delorean Motor Company: Pioneering the Future of Automotive Ownership",
     desc: "In collaboration with the Delorean Motor Company, Fulcrum Services leveraged our deep expertise in blockchain and IoT to innovate the car ownership experience. We crafted a groundbreaking solution that linked car titles to Non-Fungible Tokens (NFTs), enabling secure, transparent ownership and transaction records. The integration of the car's IoT systems with the NFT framework offered prospective buyers comprehensive insights into vehicle history, performance, and condition, directly linked to the blockchain for indisputable authenticity. This visionary approach not only streamlined the pre-sale and secondary market processes but also significantly enhanced buyer confidence and satisfaction, driving a notable increase in sales and market presence for Delorean.",
     content: (
@@ -156,13 +142,6 @@ export const BlogContent = [
           purpose of your website and identify your target audience.
           Understanding your goals and the needs of your audience will guide
           your design choices and ensure a more focused and impactful outcome.
-        </p>
-        <h1 className="text-3xl font-bold py-3">Step 2: Research and Inspiration</h1>
-        <p className="pb-5 leading-relaxed">
-          Explore existing websites, both within and outside your industry, to
-          gather inspiration. Pay attention to design elements, color schemes,
-          and layouts that resonate with you. This research phase will help you
-          develop a vision for your own project.
         </p>
         <h1 className="text-3xl py-3 font-bold ">Step 2: Research and Inspiration</h1>
         <p className="pb-5 leading-relaxed">

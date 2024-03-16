@@ -1,6 +1,7 @@
 export const servicesData = [
   {
     title: "Free Educational Webinars",
+    Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FFree%20Educational%20Webinars.svg?alt=media&token=db5a48f9-c8a0-4a39-ad4d-ce3aa9148086",
     subtitle: "Empowering Transformation Through Knowledge",
     description:
       "Understanding the power and potential of 4IR technologies is the cornerstone of business transformation. Our complimentary educational webinars serve as a gateway for professionals at all levels to grasp the transformative nature of AI, IoT, blockchain, and beyond.    ",
@@ -46,6 +47,7 @@ export const servicesData = [
   },
   {
     title: "Customized Training Solutions",
+    Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FCustomized%20Training%20Solutions.svg?alt=media&token=d6178d9e-d7de-4b62-abbe-92ab57992c30",
     description:
       "At Fulcrum Services, we recognize the unique challenges and objectives each organization faces. Our Customized Training Solutions are meticulously crafted to ensure your team not only understands but excels in leveraging 4IR technologies for sustained competitive advantage.",
     deliverables: [
@@ -163,6 +165,7 @@ export const servicesData = [
   },
   {
     title: "Personalized Technology Audits",
+    Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FPersonalized%20Technology%20Audits.svg?alt=media&token=e6f533cd-2de1-4f23-9fd5-b1c159fdc48a",
     subtitle: "Unlock Strategic Insights for Technological Empowerment. ",
     description:
       "In today’s dynamic digital landscape, leveraging technology to its fullest potential is paramount for staying competitive. Fulcrum Services specializes in conducting in-depth Personalized Technology Audits, offering businesses a panoramic view of their technological infrastructure. Our audits are meticulously designed to uncover inefficiencies, security vulnerabilities, and opportunities for strategic enhancements.      ",
@@ -261,6 +264,7 @@ export const servicesData = [
   },
   {
     title: "Strategic Planning and Comprehensive Audits",
+    Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FStrategic%20Planning.svg?alt=media&token=64a47313-8eab-4640-82f7-468362bad5dd",
     subtitle: "Mastering the Future with Unmatched Strategic Foresight.",
     description:
       "In an era defined by rapid technological evolution, the strategic alignment of technology with business goals is not just beneficial; it's imperative for survival and success.",
@@ -317,6 +321,7 @@ export const servicesData = [
   },
   {
     title: "Team Building and Project Management Services",
+    Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FTeam%20Building.svg?alt=media&token=31ad6344-6da9-4f87-bf3c-55a98125087c",
     subtitle:
       "Elevating Strategic Execution to New Levels of Precision and Expertise",
     breakdowns: [

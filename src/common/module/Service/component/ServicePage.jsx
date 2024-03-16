@@ -17,14 +17,13 @@ import Link from "next/link";
 export default function ServicePage() {
 
   const Icons = [
-    <BsWebcam size={50} className="h-12" />,
-    <FaChalkboardTeacher size={50} className="h-12" />,
-    <AiOutlineAudit size={50} className="h-12" />,
-    <GrPlan size={50} className="h-12" />,
-    <IoIosPricetags size={50} className="h-12" />,
-    <AiOutlineTeam size={50} className="h-12" />,
-
-  ]
+    <img src="/Customized_Training_Solutions.svg" alt="Webcam" className="h-12" />,
+    <img src="/Free_Educational_Webinars.svg" alt="Webcam" className="h-12" />,
+    <img src="/Personalized_Technology_Audits.svg" alt="Webcam" className="h-12" />,
+    <img src="/Strategic_Planning.svg" alt="Webcam" className="h-12" />,
+    <img src="/Team_Building.svg" alt="Webcam" className="h-12" />,
+  ];
+  
 
   return (
     <ComponentTransition className="h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 md:pb-20 pb-10">
@@ -34,11 +33,11 @@ export default function ServicePage() {
             Service & Expertise
           </h1>
           <div className=" absolute w-[80%] h-[250px] z-[-99] top-[-70px]">
-            <Rails />
-            <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-            <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
+          <Rails />
+          <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
+          <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+          <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+          <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
           </div>
         </div>
       </div>

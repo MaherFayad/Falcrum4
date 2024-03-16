@@ -1,6 +1,9 @@
 import { ButtonSpot } from "@/common/component/element/ButtonSpot";
+import Button from "@/common/component/element/Button";
 import ComponentTransition from "@/common/component/element/ComponentTransition";
 import Image from "@/common/component/element/Image";
+import Link from "next/link";
+
 
 const Card = () => {
   return (
@@ -18,7 +21,12 @@ const Card = () => {
         <p className="text-base text-neutral-700 dark:text-neutral-400 md:mt-5 mt-3 md:line-clamp-2 lg:line-clamp-4 line-clamp-3">
           Dive into the essentials of Fourth Industrial Revolution technologies and their impact on your industry.
         </p>
-        <ButtonSpot title="Discover More" className="md:mt-5 mt-3 overflow-hidden bgslate max-w-fit px-8 py-2" />
+        <Link href='/services/details/?title=Free-Educational-Webinars&id=0' className="w-full rounded-full">
+          <Button
+            title="Discover More"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+          />
+        </Link>
       </ComponentTransition>
       <ComponentTransition
         delay={0.2}
@@ -58,8 +66,12 @@ const Card = () => {
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
           Enhance your team's expertise with personalized training programs, crafted to meet your unique business needs.
         </p>
-        <ButtonSpot title="Learn How" className="md:mt-5 mt-3 overflow-hidden bgslate max-w-fit px-8 py-2" />
-
+        <Link href='/services/details/?title=Customized-Training-Solutions&id=1' className="w-full rounded-full">
+          <Button
+            title="Learn How"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+          />
+        </Link>
       </ComponentTransition>
       <ComponentTransition
         delay={0.1}
@@ -72,7 +84,12 @@ const Card = () => {
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
           Gain deep insights into your current technology usage and uncover potential areas for improvement.
         </p>
-        <ButtonSpot title="Book Your Audit" className="md:mt-5 mt-3 overflow-hidden bgslate max-w-fit px-8 py-2" />
+        <Link href='/services/details/?title=Personalized-Technology-Audits&id=2' className="w-full rounded-full">
+          <Button
+            title="Book Your Audit"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+          />
+        </Link>
       </ComponentTransition>
       <ComponentTransition
         delay={0.1}
@@ -86,7 +103,12 @@ const Card = () => {
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
           Align your business goals with a strategic technology roadmap designed for sustainable growth.
         </p>
-        <ButtonSpot title="Start Planning" className="md:mt-5 mt-3 overflow-hidden bgslate max-w-fit px-8 py-2" />
+        <Link href='/services/details/?title=Strategic-Planning-and-Comprehensive-Audits&id=3' className="w-full rounded-full">
+          <Button
+            title="Start Planning"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+          />
+        </Link>
       </ComponentTransition>
       <ComponentTransition
         delay={0.1}
@@ -100,7 +122,12 @@ const Card = () => {
         <p className="text-sm text-neutral-700 line-clamp-2 dark:text-neutral-400 mt-3">
           Let us lead your strategic projects to success with our expert team building and project management support.
         </p>
-        <ButtonSpot title="Explore Services" className="md:mt-5 mt-3 overflow-hidden bgslate max-w-fit px-8 py-2" />
+        <Link href='/services/details/?title=Team-Building-and-Project-Management-Services&id=4' className="w-full rounded-full">
+          <Button
+            title="Explore Services"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+          />
+        </Link>
       </ComponentTransition>
       <ComponentTransition
         delay={0.1}

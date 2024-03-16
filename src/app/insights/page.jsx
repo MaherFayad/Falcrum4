@@ -3,6 +3,7 @@ import ComponentTransition from '@/common/component/element/ComponentTransition'
 import SectionHeading from '@/common/component/element/SectionHeading'
 import { FeaturedItems } from '@/common/constant/CardItem'
 import CardSolution from '@/common/module/Solution/component/Card'
+import Rails from '@/common/svg/Rails'
 import Link from 'next/link'
 import { MdOutlineFeedback } from 'react-icons/md'
 
@@ -16,10 +17,10 @@ const Insight = () => {
                         Insights
                     </ComponentTransition>
                     <div className=" absolute w-[80%]  md:h-[180px] sm:h-[130px] h-[120px] z-[-99] lg:top-[-10px] -top-4">
-                        <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-                        <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-                        <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-                        <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
+                    <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
+                    <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+                    <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+                    <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
                     </div>
                 </div>
             </div>

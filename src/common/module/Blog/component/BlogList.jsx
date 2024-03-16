@@ -12,7 +12,7 @@ const BlogList = ({ BlogContent }) => {
         >
           <div className="md:basis-[60%] w-full py-5 px-5 lg:px-10">
             <div className="group"> <Link
-              href={`/blog/${item.slug}`}
+              href={`/success-stories/${item.slug}`}
             >
               <h1 className="text-xl md:text-2xl font-bold md:py-2 group-hover:underline transition-all duration-300 text-neutral-800 dark:text-neutral-100">
                 {item.title}
@@ -21,7 +21,7 @@ const BlogList = ({ BlogContent }) => {
                 {item.desc}
               </p></Link></div>
             <Link
-              href={`/blog/${item.slug}`}
+              href={`/success-stories/${item.slug}`}
             >
               <ButtonSpot title="Learn More" className="mt-3 overflow-hidden bgslate max-w-fit px-8 py-2" />
             </Link>

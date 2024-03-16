@@ -5,27 +5,27 @@ import { usePathname } from "next/navigation";
 import Image from "@/common/component/element/Image";
 import Rails from "@/common/component/element/Rails";
 
-const BlogDetail = () => {
+const BlogDetail = ({ id }) => {
   const pathname = usePathname();
-  const blog = BlogContent.find((item) => `/blog/${item.slug}` === pathname);
+  const blog = BlogContent.find((item) => item.id === id);
   return (
     <div className="h-auto max-w-[1500px] flex flex-col items-center justify-center mt-20 max-md:px-5 px-10 xl:px-20 pb-10 overflow-hidden">
       <div className="flex justify-center mt-20 relative">
         <h1 className="text-[4.5rem] py-5 leading-[60px] bg-clip-text dark:bg-gradient-to-r from-white from-50% to-black bg-text  w-[70%] text-transparent font-bold">
-          {blog.bigTitle}
+          {blog.title1}
         </h1>
         <div className=" absolute w-[170%]  h-[250px] z-[-99] top-[-70px]">
           <Rails/>
-          <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-          <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-          <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-          <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
+          <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
+          <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+          <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+        <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
         </div>
       </div>
       <div className="flex mt-32  w-full justify-center items-center flex-col">
       <Image 
       src={blog.img}
-      alt={blog.bigTitle}
+      alt={blog.title1}
       width={400}
       height={400}
       priority
