@@ -50,7 +50,7 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img1.png"
+            src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/img1.webp?alt=media&token=d307a8f5-60fd-4266-a4f8-8a4289e1bc88"
             alt="Header Image"
             width={400}
             height={400}
@@ -63,7 +63,7 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img.png"
+            src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/img.webp?alt=media&token=7c78aad3-4d53-49dc-9795-0a954f08e55c"
             alt="Header Image"
             width={400}
             height={400}
@@ -110,7 +110,7 @@ export default function ServicePage() {
           className="w-full h-auto md:h-[300px] md:basis-[65%] overflow-hidden bg-neutral-100 border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img1.png"
+            src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/img1.webp?alt=media&token=d307a8f5-60fd-4266-a4f8-8a4289e1bc88"
             alt="Header Image"
             width={400}
             height={400}
@@ -139,7 +139,7 @@ export default function ServicePage() {
           className="w-full h-[250px]  md:basis-[30%] overflow-hidden  border-[1px] border-neutral-300 dark:border-neutral-700 rounded-3xl"
         >
           <Image
-            src="/img.png"
+            src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/img.webp?alt=media&token=7c78aad3-4d53-49dc-9795-0a954f08e55c"
             alt="Header Image"
             width={400}
             height={400}
