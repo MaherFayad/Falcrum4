@@ -1,4 +1,4 @@
-import About from '@/common/module/About'
+import About from 'src/common/module/About'
 import React from 'react'
 
 

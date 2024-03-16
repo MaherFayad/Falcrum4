@@ -1,4 +1,4 @@
-import ServicePage from '@/common/module/Service/component/ServicePage'
+import ServicePage from 'src/common/module/Service/component/ServicePage'
 import React from 'react'
 
 

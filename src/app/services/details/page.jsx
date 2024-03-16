@@ -1,9 +1,9 @@
 "use client";
-import { ButtonSpot } from "@/common/component/element/ButtonSpot";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Rails from "@/common/component/element/Rails";
-import SectionHeading from "@/common/component/element/SectionHeading";
-import { servicesData } from "@/common/constant/ServicesData";
+import { ButtonSpot } from "src/common/component/element/ButtonSpot";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Rails from "src/common/component/element/Rails";
+import SectionHeading from "src/common/component/element/SectionHeading";
+import { servicesData } from "src/common/constant/ServicesData";
 import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";

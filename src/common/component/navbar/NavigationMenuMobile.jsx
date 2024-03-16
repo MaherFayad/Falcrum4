@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { NavigationItem } from "@/common/constant/NavigationItem";
+import { NavigationItem } from "src/common/constant/NavigationItem";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Links } from "./NavLink";

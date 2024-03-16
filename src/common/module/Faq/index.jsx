@@ -1,8 +1,8 @@
-import SectionHeading from "@/common/component/element/SectionHeading";
+import SectionHeading from "src/common/component/element/SectionHeading";
 import React from "react";
 import { SiKnowledgebase } from "react-icons/si";
 import CardFaq from "./component/CardFaq";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
 
 const Faq = () => {
   return (

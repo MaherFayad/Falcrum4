@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import Image from "@/common/component/element/Image";
-import { useMobile } from "@/common/hooks/useMobile";
+import Image from "src/common/component/element/Image";
+import { useMobile } from "src/common/hooks/useMobile";
 
 const ImgScale = () => {
   const isMobile = useMobile();

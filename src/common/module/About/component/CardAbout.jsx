@@ -1,8 +1,8 @@
-import Image from "@/common/component/element/Image";
+import Image from "src/common/component/element/Image";
 import React from "react";
 import { TbDeviceVisionPro } from "react-icons/tb";
 import { FaBullseye } from "react-icons/fa6";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
 import OurTeam from "./OurTeam";
 
 const CardAbout = () => {

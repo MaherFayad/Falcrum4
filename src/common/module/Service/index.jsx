@@ -1,14 +1,14 @@
 "use client";
-import SectionHeading from "@/common/component/element/SectionHeading";
+import SectionHeading from "src/common/component/element/SectionHeading";
 import React from "react";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
 import Card from "./component/Card";
 import { motion } from "framer-motion";
-import { translateInViewVariant } from "@/common/component/element/Transition";
-import Buttons from "@/common/component/element/Buttons";
+import { translateInViewVariant } from "src/common/component/element/Transition";
+import Buttons from "src/common/component/element/Buttons";
 import Link from "next/link";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Button from "@/common/component/element/Button";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Button from "src/common/component/element/Button";
 
 const Service = ({ className = "" }) => {
   return (

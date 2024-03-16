@@ -1,6 +1,6 @@
-import { ButtonSpot } from "@/common/component/element/ButtonSpot";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Image from "@/common/component/element/Image";
+import { ButtonSpot } from "src/common/component/element/ButtonSpot";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Image from "src/common/component/element/Image";
 import clsx from "clsx";
 import Link from "next/link";
 

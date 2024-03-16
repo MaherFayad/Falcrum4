@@ -46,7 +46,7 @@
   }
   
   /* Tablet (devices with width greater than or equal to 768px and less than 1024px) */
-  @media (min-width: 768px) and (max-width: 1360px) {
+  src/media (min-width: 768px) and (max-width: 1360px) {
     .scale-container {
       transform: scale(1); /* Scale to 75% */
     }
@@ -60,7 +60,7 @@
     width: 24rem;
   }
 
-  @media (max-width: 767px) {
+  src/media (max-width: 767px) {
     .scale-container {
         transform: scale(0.75); /* Scale to 50% */
       }

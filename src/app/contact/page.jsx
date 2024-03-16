@@ -1,4 +1,4 @@
-import Contactus from '@/common/module/Contact'
+import Contactus from 'src/common/module/Contact'
 
 export const metadata = {
   title: 'Contact Us - Teaser',

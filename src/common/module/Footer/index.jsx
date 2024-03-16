@@ -1,5 +1,5 @@
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import { FooterItem } from "@/common/constant/FooterItem";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import { FooterItem } from "src/common/constant/FooterItem";
 import Link from "next/link";
 import TextAnimated from "../Faq/component/TextAnimated";
 

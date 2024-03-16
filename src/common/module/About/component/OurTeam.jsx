@@ -1,4 +1,4 @@
-import Image from "@/common/component/element/Image";
+import Image from "src/common/component/element/Image";
 import React from "react";
 
 export default function OurTeam() {

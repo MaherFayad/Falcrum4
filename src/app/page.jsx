@@ -1,4 +1,4 @@
-import Homepage from '@/common/module/Home'
+import Homepage from 'src/common/module/Home'
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
-import Button from "@/common/component/element/Button";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import SectionHeading from "@/common/component/element/SectionHeading";
-import { CardItem } from "@/common/constant/CardItem";
+import Button from "src/common/component/element/Button";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import SectionHeading from "src/common/component/element/SectionHeading";
+import { CardItem } from "src/common/constant/CardItem";
 import Link from "next/link";
 import CardSolution from "./component/Card";
 

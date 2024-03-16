@@ -1,9 +1,9 @@
-import Rails from "@/common/component/element/Rails";
+import Rails from "src/common/component/element/Rails";
 import React from "react";
 import CardAbout from "./component/CardAbout";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
 import Feedback from "../Feedback";
-import CardOffer from "@/common/component/element/CardOffer-about";
+import CardOffer from "src/common/component/element/CardOffer-about";
 import Service from "./component/Service";
 
 const About = () => {

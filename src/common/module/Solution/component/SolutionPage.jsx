@@ -1,10 +1,10 @@
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Image from "@/common/component/element/Image";
-import Rails from "@/common/component/element/Rails";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Image from "src/common/component/element/Image";
+import Rails from "src/common/component/element/Rails";
 import React from "react";
 import Feedback from "../../Feedback";
-import { SolutionAllItem } from "@/common/constant/CardItem";
-import CardOffer from "@/common/component/element/CardOffer";
+import { SolutionAllItem } from "src/common/constant/CardItem";
+import CardOffer from "src/common/component/element/CardOffer";
 
 export default function SolutionPage() {
   return (

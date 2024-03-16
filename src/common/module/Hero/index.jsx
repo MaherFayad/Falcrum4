@@ -1,11 +1,11 @@
 "use client";
-import { ButtonSpot } from "@/common/component/element/ButtonSpot";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import H1 from "@/common/component/element/H1";
-import Image from "@/common/component/element/Image";
-import Rails from "@/common/component/element/Rails";
-import { HeroImage } from "@/common/constant/HeroImage";
-import { Parallax } from "@/common/constant/Parallax";
+import { ButtonSpot } from "src/common/component/element/ButtonSpot";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import H1 from "src/common/component/element/H1";
+import Image from "src/common/component/element/Image";
+import Rails from "src/common/component/element/Rails";
+import { HeroImage } from "src/common/constant/HeroImage";
+import { Parallax } from "src/common/constant/Parallax";
 import { motion, useScroll } from "framer-motion";
 
 

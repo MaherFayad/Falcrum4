@@ -8,7 +8,7 @@ import Feedback from '../Feedback'
 import Feature from '../Feature/Feature'
 import Pricing from '../Pricing/Pricing'
 import Interest from '../EndSection/Interest'
-import { BlogContent } from '@/common/constant/BlogContent'
+import { BlogContent } from 'src/common/constant/BlogContent'
 
 
 const Homepage = () => {

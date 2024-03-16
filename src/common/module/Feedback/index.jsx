@@ -1,5 +1,5 @@
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import SectionHeading from "@/common/component/element/SectionHeading";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import SectionHeading from "src/common/component/element/SectionHeading";
 import clsx from "clsx";
 import { MdOutlineFeedback } from "react-icons/md";
 import FeedbackCard from "./component/FeedbackCard";

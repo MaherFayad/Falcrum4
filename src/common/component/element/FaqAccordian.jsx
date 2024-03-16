@@ -3,8 +3,8 @@ import clsx from "clsx";
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { GoPlus } from "react-icons/go";
-import { Services } from "@/common/constant/Service";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
+import { Services } from "src/common/constant/Service";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
 
 export default function FaqAccordian() {
     const [openStates, setOpenStates] = useState(Array(Services.length).fill(false));

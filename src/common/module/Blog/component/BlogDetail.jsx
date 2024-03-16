@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import { BlogContent } from "@/common/constant/BlogContent";
+import { BlogContent } from "src/common/constant/BlogContent";
 import { usePathname } from "next/navigation";
-import Image from "@/common/component/element/Image";
-import Rails from "@/common/component/element/Rails";
+import Image from "src/common/component/element/Image";
+import Rails from "src/common/component/element/Rails";
 
 const BlogDetail = ({ id }) => {
   const pathname = usePathname();

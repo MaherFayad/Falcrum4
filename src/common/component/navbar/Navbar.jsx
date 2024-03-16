@@ -1,5 +1,5 @@
 "use client";
-import { NavigationItem } from "@/common/constant/NavigationItem";
+import { NavigationItem } from "src/common/constant/NavigationItem";
 import clsx from "clsx";
 import { motion } from "framer-motion";
 import Link from "next/link";

@@ -1,4 +1,4 @@
-import SolutionPage from '@/common/module/Solution/component/SolutionPage'
+import SolutionPage from 'src/common/module/Solution/component/SolutionPage'
 import React from 'react'
 
 export const metadata = {

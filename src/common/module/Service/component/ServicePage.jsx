@@ -1,8 +1,8 @@
-import CardOffer from "@/common/component/element/CardOffer";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Image from "@/common/component/element/Image";
-import Rails from "@/common/component/element/Rails";
-import { servicesData } from "@/common/constant/ServicesData";
+import CardOffer from "src/common/component/element/CardOffer";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Image from "src/common/component/element/Image";
+import Rails from "src/common/component/element/Rails";
+import { servicesData } from "src/common/constant/ServicesData";
 import Link from "next/link";
 import { AiOutlineAudit, AiOutlineTeam } from "react-icons/ai";
 import { BsWebcam } from "react-icons/bs";
@@ -13,13 +13,12 @@ import { IoIosPricetags } from "react-icons/io";
 export default function ServicePage() {
 
   const Icons = [
-    <img src="/Customized_Training_Solutions.svg" alt="Webcam" className="h-12" />,
-    <img src="/Free_Educational_Webinars.svg" alt="Webcam" className="h-12" />,
-    <img src="/Personalized_Technology_Audits.svg" alt="Webcam" className="h-12" />,
-    <img src="/Strategic_Planning.svg" alt="Webcam" className="h-12" />,
-    <img src="/Team_Building.svg" alt="Webcam" className="h-12" />,
-  ];
-  
+    <img src="/Free_Educational_Webinars.svg" className="h-12" />,
+    <img src="/Customized_Training_Solutions.svg" className="h-12" />,
+    <img src="/Personalized_Technology_Audits.svg" className="h-12" />,
+    <img src="/Strategic_Planning.svg" className="h-12" />,
+    <img src="/Team_Building.svg" className="h-12" />,
+  ]
 
   return (
     <ComponentTransition className="h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 md:pb-20 pb-10">
@@ -34,12 +33,6 @@ export default function ServicePage() {
             <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
             <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
             <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
-          <div className=" absolute w-[80%] h-[250px] z-[-99] top-[-70px]">
-          <Rails />
-          <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
-          <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
-          <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
-          <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
           </div>
         </div>
       </div>
@@ -83,7 +76,7 @@ export default function ServicePage() {
           </ComponentTransition>
 
         </div>
-      </div></div>
+      </div>
 
 
       <CardOffer title='Ready To Get Started!' className="!px-0 md:py-20 py-0" />

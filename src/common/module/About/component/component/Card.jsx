@@ -1,8 +1,8 @@
-import Image from "@/common/component/element/Image";
+import Image from "src/common/component/element/Image";
 import React from "react";
 import { WiDayCloudy } from "react-icons/wi";
 import { FaCode } from "react-icons/fa";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
 
 const Card = () => {
   return (

@@ -1,8 +1,8 @@
 'use client'
 
-import Button from "@/common/component/element/Button";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import { ServiceItem } from "@/common/constant/Service";
+import Button from "src/common/component/element/Button";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import { ServiceItem } from "src/common/constant/Service";
 import Link from "next/link";
 import { useEffect, useState } from 'react';
 import DonutChart from "./Flywheel";

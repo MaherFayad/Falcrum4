@@ -1,5 +1,5 @@
 "use client";
-import { translateInViewVariant } from "@/common/component/element/Transition";
+import { translateInViewVariant } from "src/common/component/element/Transition";
 import { motion } from "framer-motion";
 import Card from "./component/Card";
 

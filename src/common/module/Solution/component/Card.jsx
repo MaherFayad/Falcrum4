@@ -1,5 +1,5 @@
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Image from "@/common/component/element/Image";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Image from "src/common/component/element/Image";
 
 const CardSolution = ({ CardItem, className = "", cardClassName = "" }) => {
   return (

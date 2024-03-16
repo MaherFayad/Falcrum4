@@ -1,7 +1,7 @@
-import { ButtonSpot } from "@/common/component/element/ButtonSpot";
-import Button from "@/common/component/element/Button";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Image from "@/common/component/element/Image";
+import { ButtonSpot } from "src/common/component/element/ButtonSpot";
+import Button from "src/common/component/element/Button";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Image from "src/common/component/element/Image";
 import Link from "next/link";
 
 

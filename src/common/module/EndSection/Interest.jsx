@@ -1,4 +1,4 @@
-import CardOffer from "@/common/component/element/CardOffer";
+import CardOffer from "src/common/component/element/CardOffer";
 import React from "react";
 
 export default function Interest() {

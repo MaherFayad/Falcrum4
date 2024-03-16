@@ -2,7 +2,7 @@ import React from "react";
 import ComponentTransition from "./ComponentTransition";
 import { FaCheck } from "react-icons/fa";
 import Buttons from "./Buttons";
-import { PricingItem } from "@/common/constant/PricingItem";
+import { PricingItem } from "src/common/constant/PricingItem";
 import clsx from "clsx";
 import { ButtonSpot } from "./ButtonSpot";
 

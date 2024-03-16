@@ -1,11 +1,11 @@
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Image from "@/common/component/element/Image";
-import Rails from "@/common/component/element/Rails";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Image from "src/common/component/element/Image";
+import Rails from "src/common/component/element/Rails";
 import React from "react";
 import { FaCode } from "react-icons/fa6";
 import { WiDayCloudy } from "react-icons/wi";
 import Feedback from "../../Feedback";
-import CardOffer from "@/common/component/element/CardOffer";
+import CardOffer from "src/common/component/element/CardOffer";
 
 export default function ServicePage() {
   return (

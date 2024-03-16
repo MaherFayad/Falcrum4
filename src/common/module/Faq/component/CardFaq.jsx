@@ -1,7 +1,7 @@
-import Buttons from "@/common/component/element/Buttons";
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import FaqAccordian from "@/common/component/element/FaqAccordian";
-import Image from "@/common/component/element/Image";
+import Buttons from "src/common/component/element/Buttons";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import FaqAccordian from "src/common/component/element/FaqAccordian";
+import Image from "src/common/component/element/Image";
 import React from "react";
 import { FaPiedPiper } from "react-icons/fa";
 

@@ -1,5 +1,5 @@
-import ComponentTransition from "@/common/component/element/ComponentTransition";
-import Rails from "@/common/component/element/Rails";
+import ComponentTransition from "src/common/component/element/ComponentTransition";
+import Rails from "src/common/component/element/Rails";
 import CardContact from "./component/CardContact";
 
 const Contactus = () => {

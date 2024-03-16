@@ -1,4 +1,4 @@
-import Faq from '@/common/module/Faq'
+import Faq from 'src/common/module/Faq'
 import React from 'react'
 
 export const metadata = {
