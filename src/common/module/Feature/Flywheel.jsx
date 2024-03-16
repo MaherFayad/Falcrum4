@@ -1,14 +1,11 @@
 import * as d3 from "d3";
 import { useEffect, useMemo, useRef, useState } from "react";
 import "./style.css";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
-// import required modules
 import { EffectCards } from 'swiper/modules';
 
 

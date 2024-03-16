@@ -2,15 +2,12 @@ import React from "react";
 import ComponentTransition from "./ComponentTransition";
 import Image from "./Image";
 import { useRef } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "./style.css";
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
-// import required modules
 import { EffectCards } from 'swiper/modules';
 
 
