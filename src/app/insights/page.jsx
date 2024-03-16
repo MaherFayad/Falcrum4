@@ -1,5 +1,6 @@
 import Button from '@/common/component/element/Button'
 import ComponentTransition from '@/common/component/element/ComponentTransition'
+import Rails from '@/common/component/element/Rails'
 import SectionHeading from '@/common/component/element/SectionHeading'
 import { FeaturedItems } from '@/common/constant/CardItem'
 import CardSolution from '@/common/module/Solution/component/Card'
@@ -21,6 +22,12 @@ const Insight = () => {
                     <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
                     <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
                     <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+                    <div className="absolute w-[90%] top-1/2 -translate-y-1/2 h-[300px] z-[-99]">
+                        <Rails />
+                        <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
+                        <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+                        <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+                        <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
                     </div>
                 </div>
             </div>

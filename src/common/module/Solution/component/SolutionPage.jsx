@@ -12,20 +12,20 @@ export default function SolutionPage() {
       <div className="flex justify-center py-5 ">
         <div className="flex justify-center mt-20 relative ">
           <h1 className="text-4xl md:text-7xl py-5 px-10 text-center dark:bg-gradient-to-r from-white from-50% to-[#979797] bg-text bg-clip-text  text-transparent font-bold">
-          Our Solutions & Apps
+            Our Solutions & Apps
           </h1>
-          <div className=" absolute w-[80%] h-[250px] z-[-99] top-[-70px]">
+          <div className="absolute w-[90%] top-1/2 -translate-y-1/2 h-[300px] z-[-99]">
             <Rails />
-            <div className="bg-gradient-to-b from-white dark:from-black from-20% to-transparent absolute inset-0 "></div>
-            <div className="bg-gradient-to-l from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-r from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
-            <div className="bg-gradient-to-t from-white dark:from-black from-1% to-transparent to-30% absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to bottom, #E9ECEA 20%, transparent)' }} className="absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to left, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to right, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
+            <div style={{ backgroundImage: 'linear-gradient(to top, #E9ECEA 1%, transparent 30%)' }} className="absolute inset-0"></div>
           </div>
         </div>
       </div>
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
-        Innovative solutions for seamless digital transformation.
+          Innovative solutions for seamless digital transformation.
         </p>
       </div>
       <div className="py-10 mt-20 flex gap-10 flex-row justify-center relative flex-wrap">
@@ -56,7 +56,7 @@ export default function SolutionPage() {
         ))}
       </div>
       <div className="w-full mt-32">
-      <Feedback className='!px-0' />
+        <Feedback className='!px-0' />
       </div>
       <CardOffer title='Ready To Get Started!' className="!px-0" />
     </ComponentTransition>
