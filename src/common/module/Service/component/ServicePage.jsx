@@ -47,7 +47,7 @@ export default function ServicePage() {
         <div className="py-10 mt-20 flex gap-5 lg:gap-10 justify-center flex-row flex-wrap">
           {servicesData?.map((item, index) => (
             <ComponentTransition key={index} className={`services-card lg:first:!basis-[64%] lg:!basis-[47.5%] md:basis-[48%] md:h-[320px] w-full overflow-hidden bg-neutral-100 dark:bg-neutral-950/50 rounded-3xl`}>
-              <Link href={`/services/details?title=${item.title.replace(/ /g, "-")}&id=${index}`} className="block w-full h-full px-8 py-6 backdrop-blur-sm border border-neutral-300 dark:border-neutral-700 rounded-3xl border-transparent hover:border-black">
+              <Link href={`/services/${item.Url}`} className="block w-full h-full px-8 py-6 backdrop-blur-sm border border-neutral-300 dark:border-neutral-700 rounded-3xl border-transparent hover:border-black">
                 {Icons[index]}
                 <h1 className="text-base md:text-lg lg:text-[22px] font-bold py-2 text-neutral-800 dark:text-neutral-100">
                   {item.title}

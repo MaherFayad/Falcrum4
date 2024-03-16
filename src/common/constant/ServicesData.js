@@ -1,5 +1,7 @@
 export const servicesData = [
   {
+    id:"1",
+    Url:"Free-Educational-Webinars",
     title: "Free Educational Webinars",
     Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FFree%20Educational%20Webinars.svg?alt=media&token=db5a48f9-c8a0-4a39-ad4d-ce3aa9148086",
     subtitle: "Empowering Transformation Through Knowledge",
@@ -46,6 +48,8 @@ export const servicesData = [
     },
   },
   {
+    id:"2",
+    Url:"Customized-Training-Solutions",
     title: "Customized Training Solutions",
     Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FCustomized%20Training%20Solutions.svg?alt=media&token=d6178d9e-d7de-4b62-abbe-92ab57992c30",
     description:
@@ -164,6 +168,8 @@ export const servicesData = [
     cta: "Don't just compete in the Fourth Industrial Revolution—lead it. Discover how our Customized Training Solutions can transform your team and your business. Schedule your consultation today.",
   },
   {
+    id:"3",
+    Url:"Personalized-Technology-Audits",
     title: "Personalized Technology Audits",
     Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FPersonalized%20Technology%20Audits.svg?alt=media&token=e6f533cd-2de1-4f23-9fd5-b1c159fdc48a",
     subtitle: "Unlock Strategic Insights for Technological Empowerment. ",
@@ -263,6 +269,8 @@ export const servicesData = [
     cta: "Elevate your technology strategy to new heights. Schedule your comprehensive Personalized Technology Audit with Fulcrum Services today, and embark on a journey towards technological excellence and strategic empowerment.",
   },
   {
+    id:"4",
+    Url:"Strategic-Planning-and-Comprehensive-Audits",
     title: "Strategic Planning and Comprehensive Audits",
     Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FStrategic%20Planning.svg?alt=media&token=64a47313-8eab-4640-82f7-468362bad5dd",
     subtitle: "Mastering the Future with Unmatched Strategic Foresight.",
@@ -320,6 +328,8 @@ export const servicesData = [
     cta: "Secure your business's future today. Schedule a comprehensive strategic planning session with Fulcom Services, and transform your ambitious vision for the future into a meticulously crafted, actionable strategy that guarantees growth, innovation, and a formidable position in the marketplace.",
   },
   {
+    id:"5",
+    Url:"Team-Building-and-Project-Management-Services",
     title: "Team Building and Project Management Services",
     Icon: "https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Services%20Icons%2FTeam%20Building.svg?alt=media&token=31ad6344-6da9-4f87-bf3c-55a98125087c",
     subtitle:
