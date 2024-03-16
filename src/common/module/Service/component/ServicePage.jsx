@@ -83,7 +83,7 @@ export default function ServicePage() {
           </ComponentTransition>
 
         </div>
-      </div>
+      </div></div>
 
 
       <CardOffer title='Ready To Get Started!' className="!px-0 md:py-20 py-0" />

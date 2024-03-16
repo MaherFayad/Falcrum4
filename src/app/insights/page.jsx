@@ -129,7 +129,7 @@ const Insight = () => {
                 </Link>
             </div>
 
-        </div>
+        </div></div>
     )
 }
 

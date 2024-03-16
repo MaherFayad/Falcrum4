@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import '../common/style/globals.css';
-import Navbar from '@/common/component/navbar/Navbar';
+import Navbar from '@/common/navbar/Navbar';
 import Footer from '@/common/module/Footer';
 import { Providers } from '@/common/component/element/Providers';
 /* eslint-disable */
