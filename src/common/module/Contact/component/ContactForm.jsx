@@ -1,9 +1,53 @@
+'use client'
 import clsx from "clsx";
-import React from "react";
+import React, { useState, useRef, FormEvent } from 'react'; // Import FormEvent type
+import emailjs from '@emailjs/browser';
+
 
 const ContactForm = () => {
+const [name, setName] = useState('');
+const [email, setEmail] = useState('');
+const [message, setMessage] = useState('');
+const [redirecting, setRedirecting] = useState(false); // Specify boolean type
+
+const redirectToThanks = () => {
+    setRedirecting(true);
+    window.location.href = '/thanks';
+};
+
+const redirectTo404 = () => {
+    setRedirecting(true);
+    window.location.href = '/404';
+};
+
+const form = useRef(null); // Specify the type of useRef
+
+const sendEmail = (e) => {
+    e.preventDefault();
+  
+    if (form.current) {
+      emailjs
+        .sendForm('service_4i4430o', 'template_milrrl9', form.current, 'wADfMTOn2lm_ILNSF')
+        .then(
+          (result) => {
+            console.log(result.text);
+            redirectToThanks();
+          },
+          (error) => {
+            console.log(error.text);
+            redirectTo404();
+          }
+        );
+    }
+  };
+
   return (
-    <form>
+    <form
+      action="/thanks" 
+      method="post"
+      ref={form}
+      onSubmit={sendEmail}
+        >
       <div className="flex flex-col flex-grow gap-5">
         <div className="flex flex-col md:flex-row gap-5">
           <input
@@ -11,6 +55,8 @@ const ContactForm = () => {
             type="text"
             placeholder="Name"
             name="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             required
           />
           <input
@@ -18,6 +64,8 @@ const ContactForm = () => {
             type="email"
             placeholder="Email"
             name="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             required
           />
         </div>
@@ -26,6 +74,8 @@ const ContactForm = () => {
           rows={5}
           placeholder="Message"
           name="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
           required
         />
         <button
