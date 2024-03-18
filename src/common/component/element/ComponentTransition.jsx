@@ -1,9 +1,15 @@
 'use client'
 import React from "react";
 import { translateInViewVariant } from "./Transition";
+import { useMobile } from "src/common/hooks/useMobile";
 import { motion } from "framer-motion";
 
 const ComponentTransition = ({ children,className, delay }) => {
+  const isMobile = useMobile();
+
+  if (isMobile) {
+    return <div className={className}>{children}</div>;
+  }
   return (
     <motion.div
       initial="initial"
