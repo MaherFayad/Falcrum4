@@ -7,6 +7,8 @@ import Rails from "src/common/component/element/Rails";
 import { HeroImage } from "src/common/constant/HeroImage";
 import { Parallax } from "src/common/constant/Parallax";
 import { motion, useScroll } from "framer-motion";
+import Link from "next/link";
+
 
 
 export const translateVariantText = {
@@ -66,10 +68,12 @@ const Hero = () => {
             </p>
 
             <motion.div className="flex max-md:flex-col w-full items-center justify-center gap-5 py-5">
+            <Link href='/contact'>
               <ButtonSpot
                 title="Get your Free Consultation"
                 className="!rounded-full !w-auto !py-2"
               />
+            </Link>
             </motion.div>
           </div>
           <div className="absolute w-[90%] top-1/2 -translate-y-1/2 h-[300px] z-[-99]">

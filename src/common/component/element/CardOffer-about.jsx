@@ -9,7 +9,7 @@ export default function CardOffer({ title, className = '' }) {
     <div className={clsx(className, `xl:py-20 lg:py-10 py-8 relative`)}>
       <div className="max-w-[1500px] w-full max-xl:px-10 max-md:px-5 px-2 relative overflow-hidden flex-col rounded-3xl flex justify-center items-center bg-neutral-300/50 dark:bg-neutral-800/50 xl:py-40 md:30 sm:py-20 py-12">
         <Image
-          src="https://images.unsplash.com/photo-1653302803784-c5b7918dbf43?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/photo-1653302803784-c5b7918dbf43.webp?alt=media&token=dc147be9-7dbf-459d-83fa-f2a9d4fc5602"
           alt="image"
           width={400}
           height={400}
