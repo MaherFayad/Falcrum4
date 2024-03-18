@@ -21,13 +21,13 @@ export default function RootLayout({ children }) {
       <Partytown debug={true} />
       <meta property="og:title" content="Falcrum^4" />
       <meta property="og:description" content="Igniting Innovation, Engineering Futures" />
-      <meta property="og:image" content="/fb-og-image.jpg" />
+      <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/fb-og-image.jpg?alt=media&token=2783c8ab-5fa3-4780-a964-fb1bb4c094f5" />
       <meta property="og:url" content="https://falcrum4-7eb0b.web.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Falcrum^4" />
       <meta content="Falcrum^4" property="twitter:title"/>
       <meta content="Igniting Innovation, Engineering Futures" property="twitter:description" />
-      <meta content="/twitter-card.jpg" property="twitter:image" />
+      <meta content="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/twitter-card.jpg?alt=media&token=c4dabd3b-0d96-4c09-8d0e-bc513a081e8e" property="twitter:image" />
       <meta content="Falcrum^4" name="twitter:card" />
       <meta name="twitter:site" content="@Falcrum^4" />
       <meta name="twitter:creator" content="@Falcrum^4" />
