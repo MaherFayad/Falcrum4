@@ -19,48 +19,20 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
       <Partytown debug={true} />
-      <meta
-          content="Igniting Innovation, Engineering Futures"
-          property="og:title"
-      />
-      <meta
-          content="Falcrum^4"
-          property="og:description"
-      />
-      <meta
-          content="/fb-og-image.jpg"
-          property="og:image"
-      />
-      <meta
-          property="og:url"
-          content=""
-      />
-      <meta
-          property="og:site_name"
-          content="Igniting Innovation, Engineering Futures"
-      />
-      <meta
-          content="Igniting Innovation, Engineering Futures"
-          property="twitter:title"
-      />
-      <meta
-          content="Falcrum^4"
-          property="twitter:description"
-      />
-      <meta
-          content="/twitter-card.jpg"
-          property="twitter:image"
-      />
-      <meta property="og:type" content="Article" />
-      <meta content="summary" name="twitter:card" />
+      <meta property="og:title" content="Falcrum^4" />
+      <meta property="og:description" content="Igniting Innovation, Engineering Futures" />
+      <meta property="og:image" content="/fb-og-image.jpg" />
+      <meta property="og:url" content="https://falcrum4-7eb0b.web.app/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Falcrum^4" />
+      <meta content="Falcrum^4" property="twitter:title"/>
+      <meta content="Igniting Innovation, Engineering Futures" property="twitter:description" />
+      <meta content="/twitter-card.jpg" property="twitter:image" />
+      <meta content="Falcrum^4" name="twitter:card" />
       <meta name="twitter:site" content="@Falcrum^4" />
       <meta name="twitter:creator" content="@Falcrum^4" />
       <meta property="fb:admins" content="132951670226590" />
-      <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-      />
-
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
