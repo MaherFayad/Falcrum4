@@ -21,9 +21,9 @@ const NavMobile = ({ open, handleOpen, close }) => {
           viewBox="0 0 120 60"
           fill="none"
         >
-          <line y1="0" x2="120" y2="0" className={clsx(open ? 'stroke-white rotate-[45deg] translate-x-[24px] -translate-y-[20px]' : 'delay-700 stroke-black dark:stroke-white', `transition-all duration-300 `)} strokeWidth="3" />
-          <line y1="35" x2="120" y2="35" className={clsx(open ? 'opacity-0' : 'delay-700 stroke-black dark:stroke-white', `transition-all duration-300 `)} strokeWidth="3" />
-          <line y1="70" x2="120" y2="70" className={clsx(open ? 'stroke-white -rotate-[45deg] -translate-x-6 translate-y-[12px]' : 'delay-700 stroke-black dark:stroke-white', `transition-all duration-300 `)} strokeWidth="3" />
+          <line y1="0" x2="120" y2="0" className={clsx(open ? 'stroke-white rotate-[45deg] translate-x-[24px] -translate-y-[20px]' : 'delay-700 stroke-black dark:stroke-white', `transition-all duration-50 `)} strokeWidth="3" />
+          <line y1="35" x2="120" y2="35" className={clsx(open ? 'opacity-0' : 'delay-700 stroke-black dark:stroke-white', `transition-all duration-50 `)} strokeWidth="3" />
+          <line y1="70" x2="120" y2="70" className={clsx(open ? 'stroke-white -rotate-[45deg] -translate-x-6 translate-y-[12px]' : 'delay-700 stroke-black dark:stroke-white', `transition-all duration-50 `)} strokeWidth="3" />
         </svg>
       </label>
       <NavigationMenuMobile open={open} close={close} />

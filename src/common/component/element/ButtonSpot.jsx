@@ -12,15 +12,15 @@ export const ButtonSpot = ({ title, className }) => {
     const handleMouseMove = (e) => {
       const { width } = e.target.getBoundingClientRect();
       const offset = e.offsetX;
-      const left = `${(offset / width) * 100}%`;
+      const left = `${(offset / width) * 1}%`;
 
-      spanRef.current.animate({ left }, { duration: 250, fill: "forwards" });
+      spanRef.current.animate({ left }, { duration: 1, fill: "forwards" });
     };
 
     const handleMouseLeave = () => {
       spanRef.current.animate(
-        { left: "50%" },
-        { duration: 100, fill: "forwards" }
+        { left: "10%" },
+        { duration: 1, fill: "forwards" }
       );
     };
 
@@ -58,7 +58,7 @@ export const ButtonSpot = ({ title, className }) => {
 
       <span
         ref={spanRef}
-        className="pointer-events-none rounde absolute left-[50%] top-[50%] h-16 group-hover:w-16 w-0 transition-all duration-500 -translate-x-[50%] -translate-y-[50%] rounded-full bg-slate-100 dark:bg-neutral-950"
+        className="pointer-events-none rounde absolute left-[50%] top-[50%] h-16 group-hover:w-16 w-0 transition-all duration-50 -translate-x-[50%] -translate-y-[50%] rounded-full bg-slate-100 dark:bg-neutral-950"
       />
     </motion.button>
   );

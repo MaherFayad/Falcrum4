@@ -14,7 +14,7 @@ const BlogList = ({ BlogContent }) => {
             <div className="group"> <Link
               href={`/success-stories/${item.slug}`}
             >
-              <h1 className="text-xl md:text-2xl font-bold md:py-2 group-hover:underline transition-all duration-300 text-neutral-800 dark:text-neutral-100">
+              <h1 className="text-xl md:text-2xl font-bold md:py-2 group-hover:underline transition-all duration-50 text-neutral-800 dark:text-neutral-100">
                 {item.title}
               </h1>
               <p className="text-sm md:text-base max-sm:mb-0 text-neutral-700 dark:text-neutral-300 mt-5 max-xl:line-clamp-4 line-clamp-5">

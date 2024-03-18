@@ -118,7 +118,7 @@ const Insight = () => {
                 <Link href='/contact' className="w-full rounded-full">
                     <Button
                         title="Subscribe and Download the Free Workbook"
-                        className="hover:dark:!bg-neutral-100 transition-colors md:!rounded-full !rounded-3xl duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full lg:py-4 py-3 leading-tight"
+                        className="hover:dark:!bg-neutral-100 transition-colors md:!rounded-full !rounded-3xl duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full lg:py-4 py-3 leading-tight"
                     />
                 </Link>
             </div>

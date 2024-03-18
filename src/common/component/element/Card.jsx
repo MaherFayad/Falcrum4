@@ -11,16 +11,16 @@ export default function Card({ Content }) {
           key={index}
           className="flex border-[1px] relative group z-[9] dark:border-white border-black hover:lg:border-black overflow-hidden rounded-3xl flex-col items-center text-center p-6"
         >
-          <div className="absolute w-[100px] h-[100px] left-[-20%] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%] inset-0 rounded-full group-hover:lg:rounded-none translate-y-[50%] transition-all duration-500 bg-[#BFC7C1] group-hover:lg:translate-y-[0%]"></div>
-          <div className="absolute w-[100px] top-0 right-[-10%] h-[100px] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%]  rounded-full group-hover:lg:rounded-none transition-all duration-500 bg-[#BFC7C1] group-hover:lg:translate-y-[0%]"></div>
+          <div className="absolute w-[100px] h-[100px] left-[-20%] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%] inset-0 rounded-full group-hover:lg:rounded-none translate-y-[50%] transition-all duration-50 bg-[#BFC7C1] group-hover:lg:translate-y-[0%]"></div>
+          <div className="absolute w-[100px] top-0 right-[-10%] h-[100px] z-[-9] group-hover:lg:w-[100%] group-hover:lg:h-[100%]  rounded-full group-hover:lg:rounded-none transition-all duration-50 bg-[#BFC7C1] group-hover:lg:translate-y-[0%]"></div>
           {item.icon}
           {item.img && (
             <Image src={item.img} alt={item.title} width={400} heigth={400} />
           )}
-          <h1 className="text-2xl dark:text-white text-black  transition-all duration-300 font-semibold">
+          <h1 className="text-2xl dark:text-white text-black  transition-all duration-50 font-semibold">
             {item.title}
           </h1>
-          <p className="mt-2 dark:text-white text-black  transition-all duration-300">
+          <p className="mt-2 dark:text-white text-black  transition-all duration-50">
             {item.desc}
           </p>
         </ComponentTransition>

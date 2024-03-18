@@ -13,7 +13,7 @@ export const Services = [
     icon: (
       <FaConnectdevelop
         size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
+        className="group-hover:rotate-90 transition-all duration-50"
 
       />
     ),
@@ -24,7 +24,7 @@ export const Services = [
     icon: (
       <MdAnimation
         size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
+        className="group-hover:rotate-90 transition-all duration-50"
       />
     ),
     title: "Customized Training Solutions",
@@ -34,7 +34,7 @@ export const Services = [
     icon: (
       <MdOutlineAutoAwesomeMotion
         size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
+        className="group-hover:rotate-90 transition-all duration-50"
       />
     ),
     title: "Personalized Technology Audits",
@@ -44,7 +44,7 @@ export const Services = [
     icon: (
       <MdOutlineAutoAwesomeMotion
         size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
+        className="group-hover:rotate-90 transition-all duration-50"
       />
     ),
     title: "Strategic Planning and Comprehensive Audits",
@@ -54,7 +54,7 @@ export const Services = [
     icon: (
       <MdOutlineAutoAwesomeMotion
         size={size}
-        className="group-hover:rotate-90 transition-all duration-300"
+        className="group-hover:rotate-90 transition-all duration-50"
       />
     ),
     title: "Team Building and Project Management Services",

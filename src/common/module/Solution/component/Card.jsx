@@ -18,7 +18,7 @@ const CardSolution = ({ CardItem, className = "", cardClassName = "" }) => {
               width={240}
               height={400}
               loading="lazy"
-              className="w-full h-auto group-hover:scale-125 transition-all duration-300  object-cover scale-110"
+              className="w-full h-auto group-hover:scale-125 transition-all duration-50  object-cover scale-110"
             />
           </div>
 

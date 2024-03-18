@@ -165,19 +165,19 @@ const DonutChart = ({ width, height, data, Content }) => {
                 <div
                   className="h-2xl w-2xl flex flex-col items-start border-[1px] z-[9] bg-white dark:border-white overflow-hidden rounded-3xl p-6"
                 >
-                  {/* <div className="relative left-[-20%] z-[-9] rounded-full transition-all duration-500 bg-[#BFC7C1] group-hover:rounded-none group-hover:translate-y-[0%]"></div>
-                <div className="relative top-0 right-[-10%] h-[100px] z-[-9] rounded-full transition-all duration-500 bg-[#BFC7C1] group-hover:rounded-none group-hover:translate-y-[0%]"></div> */}
+                  {/* <div className="relative left-[-20%] z-[-9] rounded-full transition-all duration-50 bg-[#BFC7C1] group-hover:rounded-none group-hover:translate-y-[0%]"></div>
+                <div className="relative top-0 right-[-10%] h-[100px] z-[-9] rounded-full transition-all duration-50 bg-[#BFC7C1] group-hover:rounded-none group-hover:translate-y-[0%]"></div> */}
 
                   <div className="border-[1px] rounded-full border-[#09162B] py-2 px-5 mb-4 text-left">
                     <h4 className="text-sm"><b>{item.text1}</b><span> </span>{item.text2}</h4>
                   </div>
-                  <h1 className="text-2xl dark:text-white text-black transition-all duration-300 font-semibold text-left w-full">
+                  <h1 className="text-2xl dark:text-white text-black transition-all duration-50 font-semibold text-left w-full">
                     {item.title}
                   </h1>
-                  <p className="mt-2 dark:text-white text-black transition-all duration-300 text-left">
+                  <p className="mt-2 dark:text-white text-black transition-all duration-50 text-left">
                     <b>Goal: </b>{item.Goal}
                   </p>
-                  <p className="mt-2 dark:text-white text-black transition-all duration-300 text-left">
+                  <p className="mt-2 dark:text-white text-black transition-all duration-50 text-left">
                     <b>Impact: </b> {item.Impact}
                   </p>
                 </div>

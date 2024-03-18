@@ -13,10 +13,10 @@ export default function FeedbackCard() {
           className="flex max-lg:items-center max-lg:text-center bg-neutral-50 dark:bg-neutral-950 border-[1px] relative group z-[9] hover:lg:border-black overflow-hidden rounded-3xl flex-col justify-between items-start text-start p-6"
         >
 
-          <p className="text-sm md:text-base mt-2 py-2 h-full dark:text-white text-black transition-all duration-300">
+          <p className="text-sm md:text-base mt-2 py-2 h-full dark:text-white text-black transition-all duration-50">
             {item.desc}
           </p>
-          <h1 className="text-xl md:text-2xl dark:text-white text-black  transition-all duration-300 font-medium">
+          <h1 className="text-xl md:text-2xl dark:text-white text-black  transition-all duration-50 font-medium">
             {item.title}
           </h1>
           <p className="text-sm md:text-base text-neutral-700 dark:text-neutral-300">

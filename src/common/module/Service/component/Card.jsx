@@ -24,7 +24,7 @@ const Card = () => {
         <Link href='/services/Free-Educational-Webinars' className="w-full rounded-full">
           <Button
             title="Discover More"
-            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
           />
         </Link>
       </ComponentTransition>
@@ -69,7 +69,7 @@ const Card = () => {
         <Link href='/services/Customized-Training-Solutions' className="w-full rounded-full">
           <Button
             title="Learn How"
-            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
           />
         </Link>
       </ComponentTransition>
@@ -87,7 +87,7 @@ const Card = () => {
         <Link href='/services/Personalized-Technology-Audits' className="w-full rounded-full">
           <Button
             title="Book Your Audit"
-            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
           />
         </Link>
       </ComponentTransition>
@@ -106,7 +106,7 @@ const Card = () => {
         <Link href='/services/Strategic-Planning-and-Comprehensive-Audits' className="w-full rounded-full">
           <Button
             title="Start Planning"
-            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
           />
         </Link>
       </ComponentTransition>
@@ -125,7 +125,7 @@ const Card = () => {
         <Link href='/services/Team-Building-and-Project-Management-Services' className="w-full rounded-full">
           <Button
             title="Explore Services"
-            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black md:mt-5 mt-3 bgslate max-w-fit px-8 py-0"
           />
         </Link>
       </ComponentTransition>

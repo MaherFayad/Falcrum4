@@ -27,7 +27,7 @@ export default function FaqAccordian() {
             <div className="absolute right-0">
               <GoPlus
                 size={50}
-                className={`${openStates[index] ? 'rotate-45' : 'rotate-0'} text-neutral-500 max-md:hidden transition-all duration-300`}
+                className={`${openStates[index] ? 'rotate-45' : 'rotate-0'} text-neutral-500 max-md:hidden transition-all duration-50`}
               />
             </div>
           </div>

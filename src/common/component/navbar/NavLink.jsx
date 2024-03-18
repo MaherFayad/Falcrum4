@@ -43,7 +43,7 @@ export const Links = ({ heading, imgSrc, subheading, href, pathname }) => {
         pathname === href
           ? '!border-neutral-50'
           : '',
-        `group relative h-auto flex items-center justify-between border-b-2 border-neutral-700 py-3 transition-colors duration-500 hover:border-neutral-50 md:py-5`)}
+        `group relative h-auto flex items-center justify-between border-b-2 border-neutral-700 py-3 transition-colors duration-50 hover:border-neutral-50 md:py-5`)}
     >
       <div>
         <motion.span
@@ -58,9 +58,9 @@ export const Links = ({ heading, imgSrc, subheading, href, pathname }) => {
           }}
           className={clsx(
             pathname === href
-              ? 'relative z-10 block text-4xl font-bold transition-colors duration-500 text-neutral-50 md:text-6xl'
+              ? 'relative z-10 block text-4xl font-bold transition-colors duration-50 text-neutral-50 md:text-6xl'
               :
-              `relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl`)}
+              `relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-50 group-hover:text-neutral-50 md:text-6xl`)}
         >
           {heading.split(" ").map((l, i) => (
             <motion.span

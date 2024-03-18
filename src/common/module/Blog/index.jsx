@@ -33,7 +33,7 @@ const Blog = ({ BlogContent, className = "" }) => {
         <Link href='/success-stories' className="w-full rounded-full">
           <Button
             title="Read more about our success stories and join the ranks of our satisfied clients"
-            className="hover:dark:!bg-neutral-100 transition-colors md:!rounded-full !rounded-3xl duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full lg:py-4 py-2 !line-clamp-1"
+            className="hover:dark:!bg-neutral-100 transition-colors md:!rounded-full !rounded-3xl duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full lg:py-4 py-2 !line-clamp-1"
           />
         </Link>
       </ComponentTransition>

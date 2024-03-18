@@ -16,7 +16,7 @@ const Button = ({title= '', className= ''}) => {
       className={clsx(className,`btn relative group inline-flex items-center justify-center md:px-8 px-5 py-1 md:py-3 text-white text-base tracking-wide rounded-md `)}
       onMouseMove={handleMouseMove}
     >
-      <span className=" z-10 group-hover:text-neutral-900 transition-all duration-300 ">
+      <span className=" z-10 group-hover:text-neutral-900 transition-all duration-50 ">
         {title}
       </span>
     </button>

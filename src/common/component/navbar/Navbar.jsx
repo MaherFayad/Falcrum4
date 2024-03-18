@@ -34,7 +34,7 @@ const Navbar = () => {
     <motion.div
       className={clsx(
         scroll ? "backdrop-blur-sm" : "",
-        `w-full transition-all duration-300 mx-auto bg-[#E9ECEAfffd0] dark:bg-[#000000d0]  max-w-[1500px]  border-b-[1px] border-neutral-300 dark:border-neutral-800 lg:py-5 md:py-4 sm:py-3 px-5 2xl:rounded-3xl lg:px-10 fixed top-0 right-0 left-0 z-[99]`
+        `w-full transition-all duration-50 mx-auto bg-[#E9ECEAfffd0] dark:bg-[#000000d0]  max-w-[1500px]  border-b-[1px] border-neutral-300 dark:border-neutral-800 lg:py-5 md:py-4 sm:py-3 px-5 2xl:rounded-3xl lg:px-10 fixed top-0 right-0 left-0 z-[99]`
       )}
     >
       <div className="flex flex-row justify-between items-center">
@@ -67,8 +67,8 @@ const Navbar = () => {
               <div
                 className={clsx(
                   pathname === item.src
-                    ? "absolute top-[23px] h-[2px] flex items-center w-[50%]  bg-[#000] dark:bg-white  transition-transform duration-300 "
-                    : "absolute top-[23px] h-[2px] w-[0%]  bg-[#000] dark:bg-white  transition-all duration-300 group-hover:w-[50%]"
+                    ? "absolute top-[23px] h-[2px] flex items-center w-[50%]  bg-[#000] dark:bg-white  transition-transform duration-50 "
+                    : "absolute top-[23px] h-[2px] w-[0%]  bg-[#000] dark:bg-white  transition-all duration-50 group-hover:w-[50%]"
                 )}
               ></div>
             </Link>

@@ -72,7 +72,7 @@ export default function Feature() {
         <Link href="/solution" className="w-full rounded-full">
           <Button
             title="View All Solution"
-            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-300 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full lg:py-4 py-3"
+            className="hover:dark:!bg-neutral-100 transition-colors !rounded-full duration-50 overflow-hidden !bg-transparent outline outline-1 dark:outline-white outline-neutral-950 dark:!text-white !text-black w-full lg:py-4 py-3"
           />
         </Link>
       </ComponentTransition>
