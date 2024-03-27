@@ -12,8 +12,8 @@ const CardContact = () => {
       <div className="py-10 mt-10 w-full h-full flex gap-10 justify-center lg:flex-row flex-col-reverse flex-wrap relative">
         <ComponentTransition delay={0.1} className="w-full lg:px-10 max-sm:pt-0 py-5 lg:basis-[40%] max-lg:mt-10 max-sm:mt-0">
           {/* <h1 className="mt-6 text-lg">Head-quarters:</h1> */}
-          <h2 className="text-neutral-500">Email:info@falcrum4.io</h2>
-          <h2 className="text-neutral-500">Phone Number: +1 (555) 123-4567</h2>
+          <h2 className="text-neutral-800"><span className="font-bold">Email:</span> info@falcrum4.io</h2>
+          <h2 className="text-neutral-800"><span className="font-bold">Phone Number:</span> +1 (555) 123-4567</h2>
           {/* <h2 className="text-neutral-500">Office Location: 123 Innovation Drive, Tech City, Futureland</h2> */}
           <p className="text-base mt-6">At Fulcrum Services, we're committed to empowering businesses to navigate the complexities of the Fourth Industrial Revolution with confidence and strategic foresight. Whether you're seeking to understand how 4IR technologies can transform your operations, require a detailed consultation, or have specific service inquiries, our team is here to provide you with the insights and solutions you need.
           </p>
