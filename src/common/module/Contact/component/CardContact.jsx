@@ -8,7 +8,8 @@ import ContactForm from "./ContactForm";
 const CardContact = () => {
   return (
     <>
-      <div className="py-10 mt-10 w-full h-auto flex gap-10 justify-center lg:flex-row flex-col-reverse flex-wrap relative">
+    <div className="flex flex-col">
+      <div className="py-10 mt-10 w-full h-full flex gap-10 justify-center lg:flex-row flex-col-reverse flex-wrap relative">
         <ComponentTransition delay={0.1} className="w-full lg:px-10 max-sm:pt-0 py-5 lg:basis-[40%] max-lg:mt-10 max-sm:mt-0">
           {/* <h1 className="mt-6 text-lg">Head-quarters:</h1> */}
           <h2 className="text-neutral-500">Email:info@falcrum4.io</h2>
@@ -17,7 +18,7 @@ const CardContact = () => {
           <p className="text-base mt-6">At Fulcrum Services, we're committed to empowering businesses to navigate the complexities of the Fourth Industrial Revolution with confidence and strategic foresight. Whether you're seeking to understand how 4IR technologies can transform your operations, require a detailed consultation, or have specific service inquiries, our team is here to provide you with the insights and solutions you need.
           </p>
         </ComponentTransition>
-        <div className="w-full h-auto md:h-[300px] lg:basis-[55%]">
+        <div className="w-full h-full lg:basis-[55%]">
           <h1 className="text-4xl font-bold ">Get In Touch</h1>
           <p className="text-base mt-4 mb-7">Please fill out the form below for any inquiries, consultations, or service requests. A member of our team will get back to you promptly to discuss how we can support your journey through the Fourth Industrial Revolution.
           </p>
@@ -62,6 +63,7 @@ const CardContact = () => {
           />
         </ComponentTransition>
       </div> */}
+    </div>
     </>
   );
 };

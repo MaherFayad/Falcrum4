@@ -47,6 +47,7 @@ const sendEmail = (e) => {
       method="post"
       ref={form}
       onSubmit={sendEmail}
+      className="h-full"
         >
       <div className="flex flex-col flex-grow gap-5">
         <div className="flex flex-col md:flex-row gap-5">
