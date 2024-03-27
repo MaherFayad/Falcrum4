@@ -5,61 +5,61 @@ export const FooterItem = [
     {
         title: 'Explore',
         child_1: {
-            title: 'About Us',
+            title: 'About',
             href: '/about',
         },
         child_2: {
-            title: 'Our Services',
-            href: '/solution',
-        },
-        child_3: {
-            title: 'Our Solutions',
-            href: '/blog',
-        },
-    },
-    {
-        title: 'Expertise',
-        child_1: {
-            title: 'Cloud Integration Solutions',
-            href: '/services',
-        },
-        child_2: {
-            title: 'Custom Web Development',
+            title: 'Services',
             href: '/services',
         },
         child_3: {
-            title: 'Data Analytics and Insights',
-            href: '/services',
+            title: 'Success Stories',
+            href: '/success-stories',
         },
     },
     {
         title: 'Services',
         child_1: {
-            title: 'Cybersecurity & Compliance',
-            href: '/services',
+            title: 'Free Educational Webinars',
+            href: '/services/Free-Educational-Webinars',
         },
         child_2: {
-            title: 'AI-Powered Automation',
-            href: '/services',
+            title: 'Customized Training Solutions',
+            href: '/services/Customized-Training-Solutions',
         },
         child_3: {
-            title: 'User Experience Design',
-            href: "/services",
+            title: 'Personalized Technology Audits',
+            href: '/services/Personalized-Technology-Audits',
         },
     },
     {
-        title: 'Info',
+        title: 'Success Stories',
         child_1: {
-            title: 'FAQ',
-            href: '/faq',
+            title: 'Lavr International',
+            href: '/success-stories/Lavr-International',
         },
         child_2: {
-            title: 'Documentation',
-            href: '/faq',
+            title: 'E Electrical Contracting',
+            href: '/success-stories/E-Electrical-Contracting',
         },
         child_3: {
-            title: 'Get in touch',
-            href: '/contact'
+            title: 'Delorean Motor Company',
+            href: "/success-stories/Delorean-Motor-Company",
+        },
+    },
+    {
+        title: 'Others',
+        child_1: {
+            title: 'Insights',
+            href: '/insights',
+        },
+        child_2: {
+            title: 'Contact Us',
+            href: '/contact',
+        },
+        child_3: {
+            title: '',
+            href: ''
         },
     },
 ]
