@@ -10,10 +10,10 @@ const CardContact = () => {
     <>
       <div className="py-10 mt-10 w-full h-auto flex gap-10 justify-center lg:flex-row flex-col-reverse flex-wrap relative">
         <ComponentTransition delay={0.1} className="w-full lg:px-10 max-sm:pt-0 py-5 lg:basis-[40%] max-lg:mt-10 max-sm:mt-0">
-          <h1 className="mt-6 text-lg">Head-quarters:</h1>
-          <h2 className="text-neutral-500">Email:contactsrc/fulcrumservices.com</h2>
+          {/* <h1 className="mt-6 text-lg">Head-quarters:</h1> */}
+          <h2 className="text-neutral-500">Email:info@falcrum4.io</h2>
           <h2 className="text-neutral-500">Phone Number: +1 (555) 123-4567</h2>
-          <h2 className="text-neutral-500">Office Location: 123 Innovation Drive, Tech City, Futureland</h2>
+          {/* <h2 className="text-neutral-500">Office Location: 123 Innovation Drive, Tech City, Futureland</h2> */}
           <p className="text-base mt-6">At Fulcrum Services, we're committed to empowering businesses to navigate the complexities of the Fourth Industrial Revolution with confidence and strategic foresight. Whether you're seeking to understand how 4IR technologies can transform your operations, require a detailed consultation, or have specific service inquiries, our team is here to provide you with the insights and solutions you need.
           </p>
         </ComponentTransition>
@@ -39,7 +39,7 @@ const CardContact = () => {
           </Link>
         </div>
       </div>
-      <div className="flex lg:gap-10 gap-5 max-lg:flex-col-reverse justify-center mt-20">
+      {/* <div className="flex lg:gap-10 gap-5 max-lg:flex-col-reverse justify-center mt-20">
         <ComponentTransition delay={0.2} className="w-full h-auto overflow-hidden rounded-3xl  lg:basis-[47%] basis-[100%]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253840.65638805012!2d106.66470295433655!3d-6.229379591448096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1701852183072!5m2!1sid!2sid"
@@ -61,7 +61,7 @@ const CardContact = () => {
             className="w-full max-lg:h-[250px] h-full object-cover scale-110"
           />
         </ComponentTransition>
-      </div>
+      </div> */}
     </>
   );
 };
