@@ -21,7 +21,7 @@ const DonutChartMobile = ({ Content }) => {
         >
 
           {Content.map((item, index) => (
-            <SwiperSlide key={index} className="w-2xl h-2xl">
+            <SwiperSlide key={index} className="w-2xl h-2xl rounded-3xl">
               <div className="h-2xl w-2xl bg-white rounded-3xl">
                 <div
                   className="h-2xl w-2xl flex flex-col items-start border-[1px] z-[9] bg-white dark:border-white overflow-hidden rounded-3xl p-6"
