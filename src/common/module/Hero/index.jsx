@@ -59,7 +59,7 @@ const Hero = () => {
               <h1 className="lg:text-xl md:text-lg sm:text-base text-sm">Make Your Startup </h1>
             </div>
             <H1
-              className="text-3xl md:text-4xl lg:text-5xl xl:w-[80%] 2xl:w-[80%] !leading-[110%] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center min-w-max font-bold pb-3 md:pt-8 pt-4"
+              className="text-3xl md:text-4xl lg:text-5xl xl:w-[80%] 2xl:w-[80%] !leading-[110%] items-center flex overflow-hidden dark:bg-gradient-to-r from-white from-50% to-[#9c9c9c] bg-text bg-clip-text text-transparent text-center lg:min-w-max font-bold pb-3 md:pt-8 pt-4"
               title="Bridging the Talent-Tech Gap"
             />
 
