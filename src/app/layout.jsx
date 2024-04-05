@@ -4,6 +4,7 @@ import Navbar from 'src/common/component/navbar/Navbar';
 import Footer from 'src/common/module/Footer';
 import { Providers } from 'src/common/component/element/Providers';
 import { Partytown } from '@builder.io/partytown/react';
+import { analytics } from '../common/module/firebase-config';
 /* eslint-disable */
 
 // Initialize Inter font (adjust options as needed)
@@ -15,10 +16,22 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const firebaseConfig = {
+    apiKey: "AIzaSyAsTM8ffi9SsYqoHCGuTcOCTZyoHTHQ_5M",
+    authDomain: "falcrum4-7eb0b.firebaseapp.com",
+    projectId: "falcrum4-7eb0b",
+    storageBucket: "falcrum4-7eb0b.appspot.com",
+    messagingSenderId: "1005206569426",
+    appId: "1:1005206569426:web:911957ae7d806f8c44880b",
+    measurementId: "G-HFZC0B2V9P"
+  };
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-      <Partytown debug={true} />
+      {/* <Partytown debug={true} /> */}
       <meta property="og:title" content="Falcrum^4" />
       <meta property="og:description" content="Bridging the Talent-Tech Gap" />
       <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/fb-og-image.jpg?alt=media&token=2783c8ab-5fa3-4780-a964-fb1bb4c094f5" />
@@ -40,7 +53,20 @@ export default function RootLayout({ children }) {
       <meta name="theme-color" content="#000000" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
-
+      <script
+                        async
+                        id="ms-clarity"
+                        type="text/javascript"
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                            (function(c,l,a,r,i,t,y){
+                              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                          })(window, document, "clarity", "script", "lrkrx5eqze");
+                      `,
+                        }}
+                    />
       </head>
       <body className={`${interFont.className} overflow-x-hidden`}>
         <Providers>
