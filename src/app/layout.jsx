@@ -26,6 +26,40 @@ export default function RootLayout({ children }) {
   };
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-HFZC0B2V9P';
+    document.body.appendChild(script);
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-HFZC0B2V9P');
+  }, []);
+  useEffect(() => {
+    // Creating the script tag
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = "https://www.clarity.ms/tag/" + "lrkrx5eqze";
+    script.id = "ms-clarity"; // Assigning the ID here
+
+    // Inserting the script tag into the document
+    document.body.appendChild(script);
+
+    // This function will be executed immediately to setup Clarity
+    (function(c,l,a,r,i,t,y){
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+    })(window, document, "clarity", "script", "lrkrx5eqze");
+
+    // Cleanup function to remove the script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -52,37 +86,6 @@ export default function RootLayout({ children }) {
       <meta name="theme-color" content="#000000" />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
-      <script
-                        async
-                        id="ms-clarity"
-                        type="text/javascript"
-                        dangerouslySetInnerHTML={{
-                            __html: `
-                            <script type="text/javascript">
-                            (function(c,l,a,r,i,t,y){
-                                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-                            })(window, document, "clarity", "script", "lrkrx5eqze");
-                        </script>                      `,
-                        }}
-                    />
-      <script
-                        async
-                        id="ms-clarity"
-                        type="text/javascript"
-                        dangerouslySetInnerHTML={{
-                            __html: `
-                            <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFZC0B2V9P"></script>
-                            <script>
-                              window.dataLayer = window.dataLayer || [];
-                              function gtag(){dataLayer.push(arguments);}
-                              gtag('js', new Date());
-                              gtag('config', 'G-HFZC0B2V9P');
-                            </script>
-                                              `,
-                        }}
-                    />
       </head>
       <body className={`${interFont.className} overflow-x-hidden`}>
         <Providers>
