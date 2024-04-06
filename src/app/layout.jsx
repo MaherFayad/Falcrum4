@@ -3,7 +3,6 @@ import '../common/style/globals.css';
 import Navbar from 'src/common/component/navbar/Navbar';
 import Footer from 'src/common/module/Footer';
 import { Providers } from 'src/common/component/element/Providers';
-import { Partytown } from '@builder.io/partytown/react';
 import { analytics } from '../common/module/firebase-config';
 /* eslint-disable */
 
@@ -59,12 +58,29 @@ export default function RootLayout({ children }) {
                         type="text/javascript"
                         dangerouslySetInnerHTML={{
                             __html: `
+                            <script type="text/javascript">
                             (function(c,l,a,r,i,t,y){
-                              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-                          })(window, document, "clarity", "script", "lrkrx5eqze");
-                      `,
+                                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                            })(window, document, "clarity", "script", "lrkrx5eqze");
+                        </script>                      `,
+                        }}
+                    />
+      <script
+                        async
+                        id="ms-clarity"
+                        type="text/javascript"
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                            <script async src="https://www.googletagmanager.com/gtag/js?id=G-HFZC0B2V9P"></script>
+                            <script>
+                              window.dataLayer = window.dataLayer || [];
+                              function gtag(){dataLayer.push(arguments);}
+                              gtag('js', new Date());
+                              gtag('config', 'G-HFZC0B2V9P');
+                            </script>
+                                              `,
                         }}
                     />
       </head>
