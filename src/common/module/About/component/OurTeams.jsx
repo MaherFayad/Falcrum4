@@ -21,7 +21,7 @@ export default function OurTeam() {
               alt="Team member"
               className=" overflow-hidden rounded-3xl object-cover object-center max-lg:w-48 max-lg:h-48 max-lg:rounded-full max-lg:mx-auto w-full group-hover:scale-105 transition-transform"
               height={50}
-              src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Team%2FBron.webp?alt=media&token=bbfbbe92-b858-483b-bd81-4e276fd66859"
+              src="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/Team%2Fd?alt=media&token=8f9a875b-ce76-4f60-abe6-80b8add0ae79"
               width={50}
               priority
             />

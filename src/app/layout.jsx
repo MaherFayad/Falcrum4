@@ -10,54 +10,54 @@ import { analytics } from '../common/module/firebase-config';
 const interFont = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Falcrum^4',
+  title: 'fulcrum^4',
   description: 'Bridging the Talent-Tech Gap',
 };
 
 export default function RootLayout({ children }) {
-  const firebaseConfig = {
-    apiKey: "AIzaSyAsTM8ffi9SsYqoHCGuTcOCTZyoHTHQ_5M",
-    authDomain: "falcrum4-7eb0b.firebaseapp.com",
-    projectId: "falcrum4-7eb0b",
-    storageBucket: "falcrum4-7eb0b.appspot.com",
-    messagingSenderId: "1005206569426",
-    appId: "1:1005206569426:web:911957ae7d806f8c44880b",
-    measurementId: "G-HFZC0B2V9P"
-  };
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-HFZC0B2V9P';
-    document.body.appendChild(script);
+  // const firebaseConfig = {
+  //   apiKey: "AIzaSyAsTM8ffi9SsYqoHCGuTcOCTZyoHTHQ_5M",
+  //   authDomain: "fulcrum4-7eb0b.firebaseapp.com",
+  //   projectId: "fulcrum4-7eb0b",
+  //   storageBucket: "fulcrum4-7eb0b.appspot.com",
+  //   messagingSenderId: "1005206569426",
+  //   appId: "1:1005206569426:web:911957ae7d806f8c44880b",
+  //   measurementId: "G-HFZC0B2V9P"
+  // };
+  // const app = initializeApp(firebaseConfig);
+  // const analytics = getAnalytics(app);
+  // useEffect(() => {
+  //   const script = document.createElement('script');
+  //   script.async = true;
+  //   script.src = 'https://www.googletagmanager.com/gtag/js?id=G-HFZC0B2V9P';
+  //   document.body.appendChild(script);
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-HFZC0B2V9P');
-  }, []);
-  useEffect(() => {
-    // Creating the script tag
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.async = true;
-    script.src = "https://www.clarity.ms/tag/" + "lrkrx5eqze";
-    script.id = "ms-clarity"; // Assigning the ID here
+  //   window.dataLayer = window.dataLayer || [];
+  //   function gtag() { dataLayer.push(arguments); }
+  //   gtag('js', new Date());
+  //   gtag('config', 'G-HFZC0B2V9P');
+  // }, []);
+  // useEffect(() => {
+  //   // Creating the script tag
+  //   const script = document.createElement('script');
+  //   script.type = 'text/javascript';
+  //   script.async = true;
+  //   script.src = "https://www.clarity.ms/tag/" + "lrkrx5eqze";
+  //   script.id = "ms-clarity"; // Assigning the ID here
 
-    // Inserting the script tag into the document
-    document.body.appendChild(script);
+  //   // Inserting the script tag into the document
+  //   document.body.appendChild(script);
 
-    // This function will be executed immediately to setup Clarity
-    (function(c,l,a,r,i,t,y){
-        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
-    })(window, document, "clarity", "script", "lrkrx5eqze");
+  //   // This function will be executed immediately to setup Clarity
+  //   (function(c,l,a,r,i,t,y){
+  //       c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+  //   })(window, document, "clarity", "script", "lrkrx5eqze");
 
-    // Cleanup function to remove the script when the component unmounts
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  //   // Cleanup function to remove the script when the component unmounts
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
 
 
@@ -65,18 +65,18 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
       {/* <Partytown debug={true} /> */}
-      <meta property="og:title" content="Falcrum^4" />
+      <meta property="og:title" content="fulcrum^4" />
       <meta property="og:description" content="Bridging the Talent-Tech Gap" />
       <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/fb-og-image.jpg?alt=media&token=2783c8ab-5fa3-4780-a964-fb1bb4c094f5" />
-      <meta property="og:url" content="https://falcrum4-7eb0b.web.app/" />
+      <meta property="og:url" content="https://fulcrum4-7eb0b.web.app/" />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Falcrum^4" />
-      <meta content="Falcrum^4" property="twitter:title"/>
+      <meta property="og:site_name" content="fulcrum^4" />
+      <meta content="fulcrum^4" property="twitter:title"/>
       <meta content="Bridging the Talent-Tech Gap" property="twitter:description" />
       <meta content="https://firebasestorage.googleapis.com/v0/b/falcrum4-7eb0b.appspot.com/o/twitter-card.jpg?alt=media&token=c4dabd3b-0d96-4c09-8d0e-bc513a081e8e" property="twitter:image" />
-      <meta content="Falcrum^4" name="twitter:card" />
-      <meta name="twitter:site" content="@Falcrum^4" />
-      <meta name="twitter:creator" content="@Falcrum^4" />
+      <meta content="fulcrum^4" name="twitter:card" />
+      <meta name="twitter:site" content="@fulcrum^4" />
+      <meta name="twitter:creator" content="@fulcrum^4" />
       <meta property="fb:admins" content="132951670226590" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" type="image/x-icon" href="/favicon.ico" />

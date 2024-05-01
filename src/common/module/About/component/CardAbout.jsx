@@ -3,7 +3,7 @@ import React from "react";
 import { TbDeviceVisionPro } from "react-icons/tb";
 import { FaBullseye } from "react-icons/fa6";
 import ComponentTransition from "src/common/component/element/ComponentTransition";
-import OurTeam from "./OurTeam";
+import OurTeam from "./OurTeams";
 
 const CardAbout = () => {
   return (

@@ -57,7 +57,7 @@ const Footer = () => {
           <FaDiscord size={30} />
         </div> */}
         <div className="flex flex-col">
-          <h1 className="text-sm">© 2024 <b>Falcrum^4</b>. All Rights Reserved.</h1>
+          <h1 className="text-sm">© 2024 <b>fulcrum^4</b>. All Rights Reserved.</h1>
         </div>
       </div>
     </div>
