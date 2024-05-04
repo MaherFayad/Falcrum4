@@ -86,19 +86,19 @@ export const servicesData = [
         package: "Standard Package",
         description:
           "For teams up to 20 participants, including 4 comprehensive modules",
-        price: "$4,000",
+        price: "Starting From $4,000",
       },
       {
         package: "Premium Package",
         description:
           "For teams up to 50 participants, includes 8 modules covering advanced topics, plus guest expert sessions",
-        price: "$7,500",
+        price: "Starting From $7,500",
       },
       {
         package: "Elite Package",
         description:
           "Customized entirely to your organization's needs, with flexible participant numbers, advanced modules, and ongoing support",
-        price: "Pricing varies based on scope",
+        price: "Reach out to learn more",
       },
     ],
     process: [
@@ -202,19 +202,19 @@ export const servicesData = [
         package: "Standard Audit Package",
         description:
           "Ideal for SMEs seeking a foundational assessment of their technology landscape",
-        price: "$6,000",
+        price: "Starting From $6,000",
       },
       {
         package: "Advanced Audit Package",
         description:
           "A more extensive analysis that includes cybersecurity, compliance, and a strategic technology roadmap for larger organizations",
-        price: "$12,000",
+        price: "Starting From $12,000",
       },
       {
         package: "Premium Audit Package",
         description:
           "Our most comprehensive service, offering deep insights, a detailed implementation blueprint, and post-audit support for enterprise-level clients",
-        price: "$18,000",
+        price: "Starting From $18,000",
       },
     ],
     process: [

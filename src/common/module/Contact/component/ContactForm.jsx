@@ -81,12 +81,15 @@ const sendEmail = (e) => {
         />
         <button
           className={clsx(
-            "py-2.5 bg-neutral-900 text-neutral-300 dark:bg-neutral-50 dark:text-neutral-950 flex justify-center hover:dark:bg-neutral-50 hover:bg-neutral-900 hover:scale-[101%] duration-50 transition-all"
+            "py-2.5 bg-neutral-900 text-neutral-300 dark:bg-neutral-50 dark:text-neutral-950 rounded-3xl flex justify-center hover:dark:bg-neutral-50 hover:bg-neutral-900 hover:scale-[101%] duration-50 transition-all"
           )}
           type="submit"
         >
           Send The Message
         </button>
+        <a className="py-2.5 bg-neutral-200 border-gray-400 border-2 text-neutral-900 rounded-3xl font-bold text-center hover:scale-[101%] duration-50 transition-all"
+         href='https://outlook.office365.com/owa/calendar/Fulcrum4Law@fulcrum4.io/bookings/' target="_blank">Schedule Meeting</a>
+
       </div>
     </form>
   );

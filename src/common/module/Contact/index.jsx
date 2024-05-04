@@ -19,6 +19,7 @@ const Contactus = () => {
           </div>
         </div>
       </div>
+
       <div className="flex justify-center items-center flex-col">
         <p className="text-base md:text-2xl text-neutral-500 md:w-[70%] text-center">
           Engage with Fulcrum Services

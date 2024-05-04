@@ -244,9 +244,12 @@ const DetailsPage = () => {
                             <p className="md:text-[18px] text-base text-center text-neutral-700 line-clamp-6 dark:text-neutral-400 leading-[140%]">
                                 {itemData.comprehensivePrice.description}
                             </p>
-                            <ButtonSpot
-                                title="Learn More"
-                                className="lg:py-3 py-2 lg:text-[18px] md:text-base text-sm text-white max-w-[200px] w-full mx-auto" />
+                                    <a href="/contact/" target="_blank" className="lg:text-[18px] md:text-base text-sm text-white max-w-[200px] w-full mx-auto">
+                                        <ButtonSpot
+                                            title="Learn More"
+                                            className="lg:py-3 py-2 lg:text-[18px] md:text-base text-sm text-white max-w-[200px] w-full mx-auto"
+                                        />
+                                    </a>                               
                         </div>
                     </ComponentTransition>
                 </div>
@@ -311,8 +314,8 @@ const DetailsPage = () => {
 
                     <div className="flex justify-center gap-5 lg:gap-10 flex-wrap">
                         {itemData.process.map((item, index) => (
-                            <div className="text-left w-full" key={index}>
-                                <h3 className="font-bold text-base md:text-2xl mb-1">Step {index + 1} {item.heading}:</h3>
+                            <div className="text-center w-full" key={index}>
+                                <h3 className="font-regular text-base md:text-2xl mb-1"><span className="font-bold">Step {index + 1}</span> {item.heading}:</h3>
                                 <p className="text-xs md:text-base leading-[140%] text-neutral-500">{item.description}</p>
                             </div>
 
