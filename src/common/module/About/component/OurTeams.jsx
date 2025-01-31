@@ -21,7 +21,7 @@ export default function OurTeam() {
               alt="Team member"
               className=" overflow-hidden rounded-3xl object-cover object-center max-lg:w-48 max-lg:h-48 max-lg:rounded-full aspect-square max-lg:mx-auto w-full group-hover:scale-105 transition-transform"
               height={50}
-              src="/bron.webp"
+              src="/Bron.webp"
               width={50}
               priority
             />

@@ -48,7 +48,7 @@ export default function Feature() {
   const isDesktop = width >= desktopBreakpoint;
 
   return (
-    <div className="h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20 -my-16">
+    <div className="place-self-center self-center justify-self-center h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20 -my-16">
       <ComponentTransition
         delay={0.1}
         className="flex justify-center items-center flex-col"

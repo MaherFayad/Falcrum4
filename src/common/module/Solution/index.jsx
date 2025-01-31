@@ -7,7 +7,7 @@ import CardSolution from "./component/Card";
 
 const Solution = ({ className = "" }) => {
   return (
-    <div className={`${className} h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20`}>
+    <div className={`${className} place-self-center self-center justify-self-center h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20`}>
       <ComponentTransition className="flex justify-center md:py-3 lg:py-5">
         <SectionHeading title="Latest Insights" />
       </ComponentTransition>

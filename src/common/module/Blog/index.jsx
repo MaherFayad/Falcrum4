@@ -7,7 +7,7 @@ import Rails from "src/common/component/element/Rails";
 
 const Blog = ({ BlogContent, className = "" }) => {
   return (
-    <div className={`${className} h-auto max-w-[1500px] mx-auto px-5 lg:px-10 xl:px-20 pb-20 lg:mt-20 mt-10`}>
+    <div className={`${className} place-self-center self-center justify-self-center h-auto max-w-[1500px] mx-auto px-5 lg:px-10 xl:px-20 pb-20 lg:mt-20 mt-10`}>
       <div className="relative mb-6">
         <ComponentTransition className="flex justify-center md:py-3 lg:py-5">
           <SectionHeading title="Success Stories" />

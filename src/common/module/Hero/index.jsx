@@ -51,7 +51,7 @@ const Hero = () => {
   const { c, r, ry, rz, scale, t, y } = Parallax(scrollY);
 
   return (
-    <div className="h-auto max-w-[1500px] md:mb-20 screen-w px-5 lg:px-10 md:mt-20 sm:mt-16 mt-12 relative ">
+    <div className="h-auto max-w-[1500px] md:mb-20 screen-w px-5 lg:px-10 md:mt-20 sm:mt-16 mt-12 relative place-self-center self-center justify-self-center">
       <div className="flex flex-col justify-center md:top-0 mt-28 lg:mt-36 relative items-center">
         <div className="flex flex-col items-center justify-center relative">
           <div className="flex flex-col items-center justify-center">

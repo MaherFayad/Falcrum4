@@ -12,7 +12,7 @@ import Button from "src/common/component/element/Button";
 
 const Service = ({ className = "" }) => {
   return (
-    <div className={`${className} h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20 max-md:pt-5`}>
+    <div className={`${className} place-self-center self-center justify-self-center h-auto max-w-[1500px] px-5 lg:px-10 xl:px-20 pb-20 max-md:pt-5`}>
       <div>
         <motion.div
           className="flex justify-center lg:py-5 md:py-3"

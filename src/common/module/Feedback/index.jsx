@@ -6,7 +6,7 @@ import FeedbackCard from "./component/FeedbackCard";
 
 export default function Feedback({ className }) {
   return (
-    <div className={clsx(className, `h-auto max-w-[1500px] px-5 lg:px-10 md:pb-20 pb-10`)}>
+    <div className={clsx(className, `place-self-center self-center justify-self-center h-auto max-w-[1500px] px-5 lg:px-10 md:pb-20 pb-10`)}>
       <ComponentTransition className="flex justify-center lg:py-5">
         <SectionHeading
           title="Testimonials"
