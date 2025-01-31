@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "fulcrum4-7eb0b"
-  }
+    "default": "fulcrum-b8718",
+    "new": "fulcrum-b8718"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

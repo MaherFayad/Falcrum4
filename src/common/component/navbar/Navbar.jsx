@@ -51,7 +51,7 @@ const Navbar = () => {
             >
               Teaser
             </h1> */}
-            <img src="/Logo-Light.svg" className={`lg:h-[70px] md:h-[62px] h-[54px] ${open ? "brightness-[200] filter" : " transition delay-500"}`} alt="Logo" style={{ maxHeight: '72px' }} />
+            <img src="/Logo-Light-1.svg" className={`lg:h-[100px] md:h-[62px] h-[54px] ${open ? "brightness-[200] filter" : " transition delay-500"}`} alt="Logo" style={{ maxHeight: '200px' }} />
           </Link>
         </div>
         <div className="lg:flex hidden justify-center gap-10 items-center w-full">

@@ -15,7 +15,7 @@ export default function OurTeam() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 place-content-start place-items-start gap-8 lg:gap-10 mt-8">
+        <div className="grid grid-cols-1 lg:grid-cols-5 place-content-start place-items-start gap-8 lg:gap-10 mt-8">
           <div className="group pb-2">
             <Image
               alt="Team member"
@@ -78,6 +78,23 @@ export default function OurTeam() {
               <h1 className="text-2xl font-bold">Dan Marom              </h1>
               <h2 className="text-md font-medium text-neutral-700 dark:text-neutral-300">CFO</h2>
               <p className="text-sm text-neutral-700 dark:text-neutral-300 ">CFO with a legacy of scaling multimillion-dollar aviation and real estate ventures. Expertise in driving growth and operational efficiency.</p>
+            </div>
+          </div>
+          <div className="group pb-2">
+            <Image
+              alt="Team member"
+              className=" overflow-hidden rounded-3xl object-cover object-center max-lg:w-48 max-lg:h-48 max-lg:rounded-full aspect-square max-lg:mx-auto  w-full group-hover:scale-105 transition-transform"
+              height={50}
+              src="/1643152765899.jpg"
+              width={50}
+              priority
+            />
+            <div className="lg:mt-4 text-left max-lg:text-center">
+              <h1 className="text-2xl font-bold">Krish Sharma              </h1>
+              <h2 className="text-md font-medium text-neutral-700 dark:text-neutral-300">COO</h2>
+              <p className="text-sm text-neutral-700 dark:text-neutral-300 ">COO experienced in operational strategy and cross-functional leadership. Skilled at bridging strategic vision with execution to ensure sustainable growth.
+
+</p>
             </div>
           </div>
         </div>
